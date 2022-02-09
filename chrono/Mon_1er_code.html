@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mon 1er Script</title>
+  <style>
+    fieldset {
+      width: 10em;
+      text-align: center;
+      margin: 0 auto;
+    }
+    #pause, #stop {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- un embryon de formulaire avec déjà du code JS événementiel -->
+  <!-- <input type="button" value="Clic moi !" onClick="alert('Hello');" />
+    <p>Rien a ajouter !</p> -->
+
+  <!-- <input type="radio" name="choix" value="semaine">Semaine <br>
+  <input type="radio" name="choix" value="week-end">Week-end <br>
+  <button onclick="testerRadio()">Choix</button> <br>
+  <input type="text" name="" id="txt"> -->
+
+  <!-- <div id="PostIt" style="position: absolute; visibility: hidden; background-color: yellow; left: 50%;">
+    <p>Vous avez cliqué sur le bouton 'Affiche' !</p>
+  </div>
+  <button id="btnAffiche">Affiche</button>
+  <button id="btnCache">Cache</button>
+
+  <p id="parTexte" onmouseover="survol()" style="width: 20%; background-color: red; color: white; text-align: center; margin: 0 50%;">« Merci de bien vouloir me survoler »</p> -->
+
+  <!-- quand on récupére byclassname sa renvoie un tableau,alors que si je récup id
+    sa renvoie juste une varibale, ca fera mois de cassage de tete -->
+
+
+  <!-- <style type="text/css">
+    #PostIt {
+      position: absolute;
+      left: 153px;
+      top: 40px;
+      width: 187px;
+      height: 50px;
+      z-index: 1;
+      background-color: #FFFF66;
+      border: 1px none #000000;
+      visibility: hidden;
+    }
+  </style>
+  <h3> Post-It</h3>
+  <input type="button" id="btncache" value="Cache" />
+  <input type="button" id="btnaffiche" value="Affiche" />
+  <div id="PostIt">Ceci est un Post It</div>
+  <br><br>
+  <a id="parTexte">Merci de bien vouloir me survoler</a> -->
+
+  <!-- Le chrono -->
+
+  <fieldset>
+    <legend>Mon chrono</legend>
+    <button id="start" onclick="start">start</button>
+    <button id="pause">pause</button>
+    <button id="stop">stop</button>
+    <p id="chrono">
+      <span id="h">00</span>:
+      <span id="m">00</span>:
+      <span id="s">00</span>
+    </p>
+  </fieldset>
+
+  <script src="Mon_1er_code.js"></script>
+
+</body>
+
+</html>

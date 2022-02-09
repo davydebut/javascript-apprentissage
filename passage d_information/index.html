@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passage d'information</title>
+    <style>
+        label,
+        input {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Première page</h1>
+    <label for="nombre">Un nombre SVP :</label>
+    <input type="number" id="nombre" name="nombre">
+    <br>
+    <label for="texte">Un texte SVP :</label>
+    <input type="text" id="texte" name="texte">
+    <br>
+    <button type="submit" id="page2" onclick="maFonction();">
+        Envoyer du texte dans une autre page !</button>
+</body>
+
+<script src="app.js"></script>
+
+</html>
