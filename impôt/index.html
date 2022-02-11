@@ -14,14 +14,16 @@
 </head>
 
 <body>
-    
+
     <label for="âge">Saisissez l'âge du Zorglubien :</label>
     <input type="number" name="âge" id="age">
     <p>Devez-vous payer l'impôt ?</p>
 
     <label for="sexe">Saisissez le genre :</label>
-    <select name="sexe" id="sexe">
-        <option value="sexe">Choissisez une valeur</option>
+    <select class="form-select" name="sexe" id="sexe">
+        <option selected>Choissisez une valeur...</option>
+        <option value="H">Homme</option>
+        <option value="F">Femme</option>
     </select>
     <button type="submit">Valider</button>
 
