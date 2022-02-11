@@ -14,22 +14,31 @@
 </head>
 
 <body>
-
-    <label for="âge">Saisissez l'âge du Zorglubien :</label>
-    <input type="number" name="âge" id="age">
-    <p>Devez-vous payer l'impôt ?</p>
-
-    <label for="sexe">Saisissez le genre :</label>
-    <select class="form-select" name="sexe" id="sexe">
-        <option selected>Choissisez une valeur...</option>
-        <option value="H">Homme</option>
-        <option value="F">Femme</option>
-    </select>
-    <button type="submit">Valider</button>
-
-
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div class="mb-3">
+                    <label for="" class="from-label"></label>
+                    <input type="number" id="age-saisi" class="form-control" aria-describedby="age-saisi">
+                    <div class="form-text" id="age-description">Devez-vous payer l'impôts ?</div>
+                </div>
+                <div class="mb-3">
+                    <label for="genre-saisi" class="form-label"></label>
+                    <select id="genre-saisi" class="form-select" aria-label="Default select exemple">
+                        <option selected></option>
+                        <option value="H">Homme</option>
+                        <option value="F">Femme</option>
+                    </select>
+                </div>
+                <button type="submit" id="bouton" class="btn btn-primary mt-5">Valider</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="app.js"></script>
