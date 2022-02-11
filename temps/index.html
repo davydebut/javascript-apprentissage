@@ -14,19 +14,29 @@
 </head>
 
 <body>
-    <!-- .container>.row>.col-sm-6.mx-auto.mt-5.text-center>.mb-6>label.form-label{Entrez une heure:}*3+input:number.form-control -->
+    <!-- .container>.row>.col-sm-6.mx-auto.mt-5.text-center>.mb-6>label.form-label{Entrez une heure:}*3^input:number.form-control*3^^.row>.col-sm-3.mx-auto.mt-5.text-center>#message -->
     <div class="container">
         <div class="row">
             <div class="col-sm-6 mx-auto mt-5 text-center">
                 <div class="mb-6">
                     <label for="" class="form-label">Entrez une heure:</label>
-                    <label for="" class="form-label">Entrez une heure:</label>
-                    <label for="" class="form-label">Entrez une heure:</label>
-                    <input type="number" name="" id="" class="form-control">
+                    <input type="number" name="" id="H" class="form-control">
+                    <label for="" class="form-label">Entrez une minutes:</label>
+                    <input type="number" name="" id="M" class="form-control">
+                    <label for="" class="form-label">Entrez une secondes:</label>
+                    <input type="number" name="" id="S" class="form-control">
+                    <div class="form-text">Dans une seconde, il sera...</div>
                 </div>
+                <button type="submit" class="btn btn-primary mt-5" id="bouton">Afficher</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="message"></div>
             </div>
         </div>
     </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
