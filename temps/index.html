@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Horloge Temps</title>
 </head>
 
 <body>
@@ -19,12 +19,12 @@
         <div class="row">
             <div class="col-sm-6 mx-auto mt-5 text-center">
                 <div class="mb-6">
-                    <label for="" class="form-label">Entrez une heure:</label>
-                    <input type="number" name="" id="H" class="form-control">
-                    <label for="" class="form-label">Entrez une minutes:</label>
-                    <input type="number" name="" id="M" class="form-control">
-                    <label for="" class="form-label">Entrez une secondes:</label>
-                    <input type="number" name="" id="S" class="form-control">
+                    <label for="heures" class="form-label">Entrez une heure:</label>
+                    <input type="number" name="heures" id="H" class="form-control">
+                    <label for="minutes" class="form-label">Entrez une minutes:</label>
+                    <input type="number" name="minutes" id="M" class="form-control">
+                    <label for="secondes" class="form-label">Entrez une secondes:</label>
+                    <input type="number" name="secondes" id="S" class="form-control">
                     <div class="form-text">Dans une seconde, il sera...</div>
                 </div>
                 <button type="submit" class="btn btn-primary mt-5" id="bouton">Afficher</button>
@@ -39,7 +39,7 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="app.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
