@@ -19,7 +19,26 @@
 
     <!-- .container>.row.mt-5>.col-sm-12.text-center>h1{Calcul de rendu de monnaie}^^.row.mt-2>.col-sm-3.mt-5.text-center>.mb-6>label.form-label+input.form-control#total^^.col-sm-3.mt-5.text-center>.mb-6>label.form-label+input.form-control#monnaie^^^.row.mt-2>.col-sm-12>.text-center>button#button.btn.btn-primary.mt-5^^^.row.mt-5>.col-sm-1+.col-sm-3>.card>.card-body.dix-euro>#message10.valeur-alignee^^^.col-sm-3>.card>.card-body.dix-euro>#message5.valeur-alignee^^^.col-sm-3>.card>.card-body.dix-euro>#message1.valeur-alignee -->
 
+    <h1>Caisse enregistreuse</h1>
 
+    <label for="total">Saisissez le montant total à payer :</label>
+    <input type="number" id="total">
+    <label for="monnaie">Saisissez le montant donné par le client</label>
+    <input type="number" id="monnaie">
+
+    <button type="submit" id="button">Rendre la monnaie</button>
+
+    <div class="row">
+        <div class="col-sm-3 mx-auto mt-5 text-center">
+            <div id="message10" style="background-color: red; height: 5em;"></div>
+        </div>
+        <div class="col-sm-3 mx-auto mt-5 text-center">
+            <div id="message5" style="background-color: red; height: 5em;"></div>
+        </div>
+        <div class="col-sm-3 mx-auto mt-5 text-center">
+            <div id="message1" style="background-color: red; height: 5em;"></div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
