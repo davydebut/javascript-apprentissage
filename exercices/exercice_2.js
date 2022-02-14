@@ -39,3 +39,5 @@ switch (nombre) {
     default:
         console.log('Désolé ce n\' est pas un jour de la semaine');
 }
+
+// fin exos 2
