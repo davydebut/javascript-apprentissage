@@ -43,7 +43,20 @@ let Annee = new Date().getFullYear(),
 
 fin exos 3 */
 
+/* exos 4
 
+// nbre = prompt("Saisissez un nombre"),
+// nbreAvant = nbre--;
+// nbreSuivant = nbre++;
 
+let 
+    nbre = 16,
+    // nbre = prompt("Saisissez un nombre", "0"),
+    nombre = parseInt(nbre),
+    nbreAvant = nombre - 1,
+    nbreSuivant = nombre + 1;
 
+    console.log("Le nombre d'avant est : " + nbreAvant + ", Et le nombre suivant est : " + nbreSuivant)
+
+fin exos 4 */
 
