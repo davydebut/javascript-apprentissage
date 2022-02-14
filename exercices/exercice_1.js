@@ -60,3 +60,31 @@ let
 
 fin exos 4 */
 
+// exos 5
+
+// la somme des entiers c'est la moyenne qui est multiplié par le nombre de chiffres exemple :
+// 1 + 2 + 3 + 4 = 10 ça c'est la somme ;
+// 10 / 4 = 2,5 ça c'est la moyenne ;
+// 2,5 * 4 = 10 c'est la somme des entiers.
+
+let somme = 0,
+    moyenne = 0,
+    entiers = 0,
+    // nbre = prompt("Entrez un nombre entre 1 et 100", "0"),
+    nbre = 10;
+    // nombre = parseInt(nbre).value;
+
+if (nbre > 100) {
+    console.log("trop de chiffres, essayez entre 1 et 100")
+} else {
+    // for (i = 0; i <= nbre -1; i++) {
+    //     somme = i * nbre;
+    //     moyenne = somme / i;
+    //     entiers = moyenne * i;
+    //     console.log(somme);
+    //     console.log(moyenne);
+    //     console.log(entiers);
+    //     console.log(i);
+    //     console.log(nbre[i]);
+    // }
+}
