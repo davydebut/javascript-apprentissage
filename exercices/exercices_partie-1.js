@@ -60,31 +60,41 @@ let
 
 fin exos 4 */
 
-// exos 5
+/* exos 5
 
 // la somme des entiers c'est la moyenne qui est multiplié par le nombre de chiffres exemple :
 // 1 + 2 + 3 + 4 = 10 ça c'est la somme ;
 // 10 / 4 = 2,5 ça c'est la moyenne ;
 // 2,5 * 4 = 10 c'est la somme des entiers.
 
-let somme = 0,
-    moyenne = 0,
-    entiers = 0,
-    // nbre = prompt("Entrez un nombre entre 1 et 100", "0"),
-    nbre = 10;
-    // nombre = parseInt(nbre).value;
-
-if (nbre > 100) {
-    console.log("trop de chiffres, essayez entre 1 et 100")
-} else {
-    // for (i = 0; i <= nbre -1; i++) {
-    //     somme = i * nbre;
-    //     moyenne = somme / i;
-    //     entiers = moyenne * i;
-    //     console.log(somme);
-    //     console.log(moyenne);
-    //     console.log(entiers);
-    //     console.log(i);
-    //     console.log(nbre[i]);
-    // }
+let nb_user = 0,
+    somme;
+nb_user = prompt('Un nombre');
+// tant que la saisi user n'est pas entre 0 et 100 on redemande
+while (nb_user < 0 || nb_user > 100) {
+    nb_user = prompt('Un nombre entre 0 et 100 :');
 }
+somme = 0;
+for (let i = 1; i <= nb_user ; i++) {
+    // console.log(i);
+    somme += i;
+    // console.log(somme);
+}
+
+Fin exos 5 */
+
+/* // exos 6
+
+let tab = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let i = 0; i < tab.length; i++) {
+    console.log(tab[i]);
+    if(tab[i]%2 == 0){
+        console.log('le chiffre ' + tab[i] + ' pair');
+    }else{
+        console.log('le chiffre ' + tab[i] + ' impair');
+    }
+}
+
+// fin exos 6 */
+
