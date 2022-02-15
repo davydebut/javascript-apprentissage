@@ -98,3 +98,24 @@ for (let i = 0; i < tab.length; i++) {
 
 // fin exos 6 */
 
+/* // exos 7
+
+// let nb_user = parseInt(prompt('Entrez une table de multiplication'));
+let nb_user = 4;
+
+for (let i = 0; i <= 10; i++) {
+    // console.log(i);
+    let multiplication = i * nb_user;
+    console.log(i + ' x ' + nb_user + ' = ' + multiplication)
+}
+
+let i = 0;
+
+while (i != 10) {
+    i++;
+    multiplication = i * nb_user;
+    // console.log(i)
+    console.log(i + ' x ' + nb_user + ' = ' + multiplication)
+}
+
+// fin exos 7 */
