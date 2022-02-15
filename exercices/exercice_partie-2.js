@@ -111,4 +111,65 @@ switch (nb_user) {
 
 // fin exos 4 */
 
-// exos 5
+/* // exos 5
+// let prixHT = parseInt(prompt('Prix HT'));
+let prixHT = 10,
+    tva1 = 5.5 / 100,
+    tva2 = 20 / 100,
+    prixTTC1 = prixHT + tva1,
+    prixTTC2 = prixHT + tva2;
+
+// console.log(tva1, tva2);
+
+console.log('Prix TTC pour ' + prixHT + ' avec la TVA à 5,5% est de ' + prixTTC1 + ', et avec la TVA à 20% est de ' + prixTTC2)
+
+// fin exos 5 */
+
+/* // exos 6
+
+// let age = parseInt(prompt('Entrez votre âge'));
+let age = 16;
+
+if(age < 18){
+    majorite = 18 - age;
+    console.log('Il vous reste ' + majorite + ' ans pour avoir la majorité')
+}else{
+    console.log('Vous avez ' + age + ' ans, vous êtes majeur !')
+}
+
+// fin exos 6 */
+
+/* // exos 7
+// let age_user = parseInt(prompt('Entrez votre âge :'));
+let age_user = 29;
+if(age_user <= 62){
+    retraite = 62 - age_user;
+    console.log('Il vous reste ' + retraite + ' ans jusqu\'à la retraite')
+}else{
+    console.log('Vous êtes déjà à la retraite !')
+}
+
+// fin exos 7 */
+
+/* // exos 8
+
+// let argent = parseInt(prompt('Entrez votre solde :'));
+let argent = 8,
+    baguette = 0.90,
+    nbr_baguette = 10,
+    somme = baguette * nbr_baguette;
+
+// prix au nombre de baguettes
+for (let i = 1; i <= 10; i++) {
+    somme = baguette * i;
+    console.log(somme)
+
+}
+if (somme > argent) {
+    total = somme - argent;
+    console.log('Il te manque ' + total + '€ pour acheter les ' + nbr_baguette + ' baguettes.')
+} else {
+    console.log('Tu peux acheter les ' + nbr_baguette + ' baguettes')
+}
+
+// fin exos 8 */
