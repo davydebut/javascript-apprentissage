@@ -95,8 +95,19 @@ while (flag) {
     } else {
         console.log('L\'index ' + nb_user + ' du tableau n\'existe pas')
     }
-} */
+}
 
 // exo 5
 let tab = [31, 98, 75, 54, 28];
+for (let i = 0; i < tab.length; i++) {
+    console.log(tab[i]);
+}
+let saisi_User = 50; // parseInt(prompt("Saisir un chiffre à ajouter"));
+console.log('Ajout d\'un nombre : ' + saisi_User);
+tab.push(saisi_User);
+for (let i = 0; i < tab.length; i++) {
+    console.log(tab[i]);
+}
+// fin exo 5 */
 
+// exo 6
