@@ -111,3 +111,17 @@ for (let i = 0; i < tab.length; i++) {
 // fin exo 5 */
 
 // exo 6
+let tab = [2,5,8,11,13,16];
+
+for (let i = 0; i < tab.length; i++) {
+    // console.log(tab[i]);
+    let nnbr_pair = tab[i]%2 == 0;
+    // console.log(nnbr_pair);
+    if(nnbr_pair){
+        console.log(tab[i] + ' PAIR')
+    }else{
+        console.log(tab[i] + ' IMPAIR')
+    }
+    
+}
+// fin exo 6
