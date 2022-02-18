@@ -21,10 +21,15 @@ for (let i = 0; i < tab.length - 1; i++) {
 // fin exo 1 et bis
 
 // exo 2
+// (%2) le modulo c'est le reste d'une division
+// le reste d'une division est calculer par exemple : 
+// 42/12=3,... et le reste = 42-(12*3) = 6
 // Un nombre est premier si il a deux diviseurs qui sont 1 et lui même,
 // exemple : 11 = 11*1 ou 7=7*1 car il est pas divisble par 2.
-// si modulo 2 = 1 c'est qu'il est premier sinon
-// Si modulo 2 = 0 c'est qu'il est pas premier
+// si modulo 2 = 1 c'est qu'il est premier exemple :
+// 7/2=3,5 et le reste = 2*3=6 et 7-6 = 1 donc %2 = 1
+//  sinon si modulo 2 = 0 c'est qu'il est pas premier exemple :
+// 8/2=4 et le reste = 2*4=8 et 8-8= 0 donc %2 = 0
 // console.log(12%2);
 // ensuite
 // n*(n+1)/2 = Somme des N premiers nombres
