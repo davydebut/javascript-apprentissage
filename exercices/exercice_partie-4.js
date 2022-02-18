@@ -44,3 +44,6 @@ if (nbr % 2 == 1) {
     console.log(nbr + ' n\'est pas un nombre premier');
 }
 // fin exo 2 */
+
+// exo 3
+let nb_a_deviner = 15;
