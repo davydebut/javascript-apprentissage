@@ -31,13 +31,15 @@ for (let i = 0; i < tab.length - 1; i++) {
 let nbr = 15; //parseInt(prompt("Entrez un nombre :"));
 if (nbr % 2 == 1) {
     console.log(nbr + ' c\'est un nombre premier');
-    function entier(nbr) {
-        let nbr1 = nbr + 1,
-            total = nbr * nbr1,
-            somme = total / 2;
-        console.log(somme+' est la somme du nombre premier : '+nbr);
-    }
-    entier(nbr);
+    let entier = (nbr) => nbr++ * nbr / 2;
+    console.log(entier(nbr) +' est la somme du nombre premier : ' +nbr);
+    // function entier(nbr) {
+    //     let nbr1 = nbr + 1,
+    //         total = nbr * nbr1,
+    //         somme = total / 2;
+    //     console.log(somme+' est la somme du nombre premier : '+nbr);
+    // }
+    // entier(nbr);
 } else {
     console.log(nbr + ' n\'est pas un nombre premier');
 }
