@@ -108,9 +108,9 @@ tab.push(saisi_User);
 for (let i = 0; i < tab.length; i++) {
     console.log(tab[i]);
 }
-// fin exo 5 */
+// fin exo 5
 
-// exo 6
+// exo 6 et 7 en même temps
 let tab = [2,5,8,11,13,16];
 
 for (let i = 0; i < tab.length; i++) {
@@ -124,4 +124,4 @@ for (let i = 0; i < tab.length; i++) {
     }
     
 }
-// fin exo 6
+// fin exo 6 et 7 */
