@@ -80,4 +80,68 @@ function JeuDuPlusOuMoins() {
 }
 
 JeuDuPlusOuMoins(nb_user);
-// fin exo 3 et 3 bis */
+// fin exo 3 et 3 bis
+
+// exo 4
+let nb_user = 16, // parseInt(prompt('Entrez un nombre à multiplier'))
+    multiplier;
+
+for (let i = 0; i <= 10; i++) {
+    multiplier = nb_user * i;
+    console.log(nb_user + ' x ' + i + ' = ' + multiplier);
+}
+// fin exo 4
+
+// exo 5
+let nb_user = 20; // parseInt(prompt('Entrez un nombre'));
+
+for (let i = 0; i <= 20; i++) {
+    nbrSuivant = nb_user + i;
+    console.log('Les nombres qui suivent après sont : '+nbrSuivant);
+}
+// fin exo 5
+
+// exo 6
+let tab1 = [1, 2, 3, 4, 6],
+    tab2 = [1, 2, 3, 4, 5];
+
+
+    for (let i = 0; i < tab1.length; i++) {
+        const element = tab1[i];
+        if(element!=tab2[i]){
+            console.log('les tableaux ne sont pas identiques');
+        }else{
+            console.log('les tableaux sont identiques');
+        }
+        
+    }
+// fin exo 6
+
+// exo 7
+let minutes = 30,
+    secondes = 60,
+    convertirEnSecondes = secondes * minutes;
+console.log(minutes + ' minutes convertie en secondes ça fait : ' + convertirEnSecondes + ' secondes');
+// fin exo 7
+
+// exo 8
+let heures = 2,
+    secondes = 3600,
+    convertirEnSecondes = secondes * heures;
+console.log(heures + ' heures convertie en secondes ça fait : ' + convertirEnSecondes + ' secondes');
+// fin exo 8
+
+// exo 9
+// il travaille 7h par jour, il fait les 35h par semaine,
+// il fait les 140h par mois et 1680h par an
+let gagneParHeure = 12.83,
+    heureJour = 1 * 7,
+    heureSemaine = heureJour * 5,
+    heureMois = heureSemaine * 4,
+    heureAnnee = heureMois * 12,
+    vacance = heureMois + heureSemaine; // 5 semaine correspond à 1 mois + 1 semaine
+travailReel = heureAnnee - vacance; 
+console.log(travailReel); // les jours de vacance enlevée sur le nombre d'heure de travail
+paieTotal = travailReel * gagneParHeure;
+console.log('le salaire d\'une personne qui travail à 12,83€/heure a ' + paieTotal + '€ de salaire sur une année');
+// fin exo 9 */
