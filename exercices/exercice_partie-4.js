@@ -48,7 +48,36 @@ if (nbr % 2 == 1) {
 } else {
     console.log(nbr + ' n\'est pas un nombre premier');
 }
-// fin exo 2 */
+// fin exo 2
 
-// exo 3
-let nb_a_deviner = 15;
+// exo 3 et 3 bis
+// tant que nb_user est différent de nb_a_trouver redemander;
+// L'utilisateur à moins de 5 coups
+let nb_a_deviner = 15,
+    compteur = 0,
+    nb_user = 10; // parseInt(prompt("Entrez un nombre entier"));
+
+function JeuDuPlusOuMoins() {
+    do {
+        if (nb_user < nb_a_deviner) {
+            console.log('C\'est plus !');
+            compteur++;
+            nb_user++;
+        }
+        if (nb_user > nb_a_deviner) {
+            console.log('C\'est moins !');
+            compteur++;
+            nb_user--;
+        }
+        if (compteur == 5) {
+            console.log('Perdu ! les '+compteur+' coups sont épuisé.');
+            break;
+        }
+        if (nb_user == nb_a_deviner) {
+            console.log('Trouvé en : ' + compteur + ' coups !');
+        }
+    } while (nb_user != nb_a_deviner);
+}
+
+JeuDuPlusOuMoins(nb_user);
+// fin exo 3 et 3 bis */
