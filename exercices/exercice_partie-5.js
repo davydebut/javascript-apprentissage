@@ -43,6 +43,20 @@ for (let i = 0; i < tab.length; i++) {
     sum *= tab[i];
 }
 console.log('Le nombre '+nb_user+' = '+sum);
-// fin exo 2 */
+// fin exo 2
 
 // exo 3
+let tab1 = [1, 2, 3, 5],
+    tab2 = [5, 4, 3, 2],
+    sum = 0;
+    sumTab = [];
+for (let i = 0; i < tab1.length; i++) {
+    // console.log(tab1[i]);
+    sum = tab1[i] + tab2[i];
+    sumTab.push(sum);
+    console.log(sumTab);
+}
+console.log('Nouveau Tableau = '+sumTab);
+// fin exo 3 */
+
+// exo 4
