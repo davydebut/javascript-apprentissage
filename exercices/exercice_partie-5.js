@@ -27,4 +27,20 @@ console.log(myArray); */
 
 // tab.sort((a, b) => b - a);
 // console.log(tab); 
-// Fin exo 1 et Bonus */
+// Fin exo 1 et Bonus 
+
+// exo 2
+let nb_user = 8; // parseInt(prompt('Entrez un nombre de départ'));
+let tab = [];
+let sum = 1;
+for (let i = 1; i < nb_user + 1; i++) {
+    tab.push(i);
+}
+console.log(tab);
+for (let i = 0; i < tab.length; i++) {
+    // console.log(tab[i]);
+    // 1*2*3*4*5*6*7*8
+    sum *= tab[i];
+}
+console.log('Le nombre '+nb_user+' = '+sum);
+// fin exo 2 */
