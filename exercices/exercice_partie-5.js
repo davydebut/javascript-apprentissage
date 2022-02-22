@@ -1,4 +1,4 @@
-/* // exo 1
+/*  // exo 1
 let tab = [];
 
 // Tant que l'utilisateur n'a pas rentrez 20 fois un nombre continuer à lui demander
@@ -19,15 +19,15 @@ let max = Math.max(...tab);
 let position = tab.indexOf(max)+1;
 console.log('Le nombre '+max+' est le plus grand et à étais saisie en '+position+' ièm position');
 
-/* // Exemple tableau
+// Exemple tableau
 let myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
 console.log(myData);
 let myArray = myData.split(',');
-console.log(myArray); */
+console.log(myArray);
 
 // tab.sort((a, b) => b - a);
 // console.log(tab); 
-// Fin exo 1 et Bonus 
+// Fin exo 1 et Bonus
 
 // exo 2
 let nb_user = 8; // parseInt(prompt('Entrez un nombre de départ'));
@@ -44,3 +44,5 @@ for (let i = 0; i < tab.length; i++) {
 }
 console.log('Le nombre '+nb_user+' = '+sum);
 // fin exo 2 */
+
+// exo 3
