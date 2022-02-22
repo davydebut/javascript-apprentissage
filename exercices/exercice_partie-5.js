@@ -57,7 +57,7 @@ for (let i = 0; i < tab1.length; i++) {
     console.log(sumTab);
 }
 console.log('Nouveau Tableau = '+sumTab);
-// fin exo 3 */
+// fin exo 3
 
 // exo 4
 let tab = [],
@@ -84,3 +84,20 @@ for (let i = 0; i < tab.length; i++) {
         console.log('les nombres supérieur à la moyenne de la classe sont ' + tab[i]);
     }
 }
+// fin exo 4
+
+// exo 5
+let age_user = Number(parseInt(prompt('Entrez votre âge :')));
+
+if (age_user <= 5) {
+    console.log('Trop petit !');
+} else if (age_user >= 6 || age_user <= 7) {
+    console.log(('Poussin !'));
+} else if (age_user >= 8 || age_user <= 9) {
+    console.log('Pupille !');
+} else if (age_user >= 10 || age_user <= 11) {
+    console.log('Minime !');
+} else {
+    console.log('Cadet !');
+}
+// fin exo 5 */
