@@ -60,3 +60,27 @@ console.log('Nouveau Tableau = '+sumTab);
 // fin exo 3 */
 
 // exo 4
+let tab = [],
+    sum = 0,
+    compteur = parseInt(prompt('Entrez combien de notes voulez-vous entrez :'));
+
+while (tab.length < compteur) {
+    let nb_user = parseInt(prompt('Entrez les notes de la classe'));
+    tab.push(nb_user);
+    // console.log(tab);
+}
+// console.log(tab);
+for (let i = 0; i < tab.length; i++) {
+    // console.log(tab[i]);
+    sum += tab[i];
+    // console.log(sum);
+}
+let moyenne = sum / tab.length;
+// console.log(sum);
+console.log('la moyenne est ' + moyenne);
+for (let i = 0; i < tab.length; i++) {
+    // console.log(tab[i]);
+    if (moyenne < tab[i]) {
+        console.log('les nombres supérieur à la moyenne de la classe sont ' + tab[i]);
+    }
+}
