@@ -85,3 +85,12 @@ console.log(joueur1.reste()); */
 
 // On recommence
 
+let nomJoueur1 = 'Julien',
+    nomJoueur2 = 'Thomas',
+    allumettes = 16,
+    nb_saisi = 0,
+    nbrTours = 0;
+
+while (allumettes != 0) {
+    console.log(nomJoueur1+' combien d\'allumettes tu veux prendre ? entre 1 et 3 :');
+}
