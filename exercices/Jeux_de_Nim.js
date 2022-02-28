@@ -23,11 +23,11 @@
     };
 // console.log(allumettes);
 
-console.log(name_user1.presentation); */
+console.log(name_user1.presentation);
 // console.log(name_user1.presentation(), name_user2.presentation());
 
 
-/*  while (allumettes != 0) {
+ while (allumettes != 0) {
     if (name_user1.nb_saisi >= 1 && name_user2.nb_saisi <= 3) {
         console.log('il reste ' + allumettes + ' allumettes. ' + name_user1.name + ' combien d\'allumette vous prenez (entre 1 et 3)');
         name_user1.reste;
@@ -36,11 +36,11 @@ console.log(name_user1.presentation); */
         name_user2.reste;
         console.log(name_user2.nb_saisi, allumettes, name_user2.reste);
     }
-} */
+}
 
 
 // il faut que le programme demande à chaque fois aux deux joueurs d'entrez un saisie donc
-/* if (nb_saisi >= 1 && nb_saisi <= 3) {
+if (nb_saisi >= 1 && nb_saisi <= 3) {
     if (allumettes != 0) {
         console.log('il reste ' + allumettes + ' allumettes. ' + name_user1 + ' combien d\'allumette vous prenez (entre 1 et 3)');
         // il faut a chaque fois que la saisie est écrite d'enlever des allumettes donc
@@ -89,28 +89,35 @@ let nomJoueur1 = 'Julien',
     nomJoueur2 = 'Thomas',
     allumettes = 16,
     nb_saisi,
+    gagnant = 'joueur2',
     nbrToursJoueur1 = 0,
     nbrToursJoueur2 = 0;
 
 while (allumettes != 0) {
+    if (gagnant != 'joueur1') {
+        console.log(nomJoueur1 + ' combien d\'allumettes tu veux prendre entre 1 & 3');
+        nb_saisi = prompt(nomJoueur1 + ' Entrez un nombre entre 1 & 3');
 
-    console.log(nomJoueur1 + ' combien d\'allumettes tu veux prendre entre 1 & 3');
-    nb_saisi = 2;
-
-    if (nb_saisi >= 1 && nb_saisi <= 3) {
-        allumettes = allumettes - nb_saisi;
-        console.log(allumettes);
-        nbrToursJoueur1++;
+        if (nb_saisi > 0 && nb_saisi < 4 && nb_saisi <= allumettes) {
+            allumettes = allumettes - nb_saisi;
+            console.log(allumettes);
+            nbrToursJoueur1++;
+            gagnant = 'joueur1';
+        }
     }
 
-    console.log(nomJoueur2 + ' combien d\'allumettes tu veux prendre entre 1 & 3');
-    nb_saisi = 2;
+    if (gagnant != 'joueur2') {
+        console.log(nomJoueur2 + ' combien d\'allumettes tu veux prendre entre 1 & 3');
+        nb_saisi = prompt(nomJoueur2 + ' Entrez un nombre entre 1 & 3');
 
-    if (nb_saisi >= 1 && nb_saisi <= 3) {
-        allumettes = allumettes - nb_saisi;
-        console.log(allumettes);
-        nbrToursJoueur2++;
+        if (nb_saisi >= 1 && nb_saisi <= 3 && nb_saisi <= allumettes) {
+            allumettes = allumettes - nb_saisi;
+            console.log(allumettes);
+            nbrToursJoueur2++;
+            gagnant = 'joueur2';
+        }
     }
+
 
     console.log(nbrToursJoueur1);
     console.log(nbrToursJoueur2);
@@ -126,3 +133,90 @@ if (nbrToursJoueur1 > nbrToursJoueur2) {
 } else {
     console.log(nomJoueur2 + ' Tu à gagné !');
 }
+
+// On recommence
+/* let allumettes = 16,
+    joueur1 = 'Julien',
+    joueur2 = 'Thomas',
+    nbAllumettesJoueur1 = 0,
+    nbAllumettesJoueur2 = 0;
+
+console.log('il faut retirer entre 1 et 3 allumettes');
+while (allumettes > 1) {
+    console.log('Allumettes disponible : ' + allumettes);
+    console.log("Tour du premier Joueur");
+    nbAllumettesJoueur1 = -1;
+    console.log(joueur1 + ' Combien d\'allumettes vous voulez retirer ? (entre 1 & 3) :');
+    nbAllumettesJoueur1 = 2;
+    console.log(joueur1 + ' retire ' + nbAllumettesJoueur1 + ' allumettes');
+    allumettes -= nbAllumettesJoueur1;
+    console.log('Allumettes disponible : ' + allumettes);
+    if (allumettes == 1) {
+        console.log(joueur1 + ' a gagné !');
+    }
+    console.log('Tour du deuxième joueur');
+    nbAllumettesJoueur2 = 0;
+    console.log(joueur2 + ' Combien d\'allumettes vous voulez retirer ? (entre 1 & 3) :');
+    if ((allumettes - 1) % 4 == 1) { // 13/4=3,25 4x3=12 13-12 = 1
+        nbAllumettesJoueur2 = 1;
+    } else if ((allumettes - 2) % 4 == 1) {
+        nbAllumettesJoueur2 = 2;
+    } else if ((allumettes - 3) % 4 == 1) {
+        nbAllumettesJoueur2 = 3;
+    } else {
+        nbAllumettesJoueur2 = 1
+    }
+    console.log(joueur2 + ' retire ' + nbAllumettesJoueur2 + ' allumettes');
+    allumettes -= nbAllumettesJoueur2;
+    if (allumettes == 1) {
+        console.log(joueur2 + ' a gagné !');
+    }
+} */
+
+// on recommence
+
+/* let allumettes = 16,
+    joueur1 = 'Julien',
+    joueur2 = 'Thomas',
+    nbTour_joueur1 = 0,
+    nbTour_joueur2 = 0,
+    nbSaisi_joueur1 = 0,
+    nbSaisi_joueur2 = 0;
+
+    while (allumettes !=0) {
+        if (nbSaisi_joueur1 <= allumettes) {
+            allumettes -= nbSaisi_joueur1;
+        }
+    } */
+
+
+
+
+/* 
+while (allumettes != 0) {
+    // console.log('il reste ' + allumettes + ' . ' + joueur1 + ' combien tu veux prendre d\'allumettes ? :');
+    nbSaisi_joueur1 = Number(prompt('il reste ' + allumettes + ' . ' + joueur1 + ' combien tu veux prendre d\'allumettes ? :'));
+    if (nbSaisi_joueur1 > 3 && nbSaisi_joueur1 < 1) {
+        nbSaisi_joueur1 = Number(prompt('il reste ' + allumettes + ' . ' + joueur1 + ' combien tu veux prendre d\'allumettes ? :'));
+    } else {
+        console.log(nbSaisi_joueur1);
+        allumettes -= nbSaisi_joueur1;
+        nbTour_joueur1++;
+        // console.log('il reste ' + allumettes + ' . ' + joueur2 + ' combien tu veux prendre d\'allumettes ? :');
+        nbSaisi_joueur2 = Number(prompt('il reste ' + allumettes + ' . ' + joueur2 + ' combien tu veux prendre d\'allumettes ? :'));
+        if (nbSaisi_joueur2 > 3 && nbSaisi_joueur2 < 1) {
+            nbSaisi_joueur2 = Number(prompt('il reste ' + allumettes + ' . ' + joueur2 + ' combien tu veux prendre d\'allumettes ? :'));
+        } else {
+            console.log(nbSaisi_joueur2);
+            allumettes -= nbSaisi_joueur2;
+            nbTour_joueur2++;
+        }
+    }
+}
+console.log(nbTour_joueur1);
+console.log(nbTour_joueur2);
+if (nbTour_joueur1 > nbTour_joueur2) {
+    console.log(joueur1 + ' tu a gagné !');
+} else {
+    console.log(joueur2 + ' tu a gagné !');
+} */
