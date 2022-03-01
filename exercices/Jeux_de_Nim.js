@@ -228,7 +228,7 @@ let allumettes = 16,
     tour_joueur = 0;
 
 while (allumettes > 0) {
-    if (tour_joueur % 2 == 0) {
+    if (tour_joueur % 2 == 0) { // 4/2=2 2*2=4 4-4=0 ou 3/2=1.5 1*2=2 3-2=1
         joueur = perso1;
     } else {
         joueur = perso2;
