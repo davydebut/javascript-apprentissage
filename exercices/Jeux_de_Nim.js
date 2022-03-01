@@ -189,9 +189,6 @@ while (allumettes > 1) {
         }
     } */
 
-
-
-
 /* 
 while (allumettes != 0) {
     // console.log('il reste ' + allumettes + ' . ' + joueur1 + ' combien tu veux prendre d\'allumettes ? :');
@@ -220,3 +217,28 @@ if (nbTour_joueur1 > nbTour_joueur2) {
 } else {
     console.log(joueur2 + ' tu a gagné !');
 } */
+
+
+// correction du prof
+
+let allumettes = 16,
+    perso1 = prompt('Saisir un nom pour joueur 1'),
+    perso2 = prompt('Saisir un nom pour joueur 2'),
+    joueur, // le joueur qui est en train de jouer
+    tour_joueur = 0;
+
+while (allumettes > 0) {
+    if (tour_joueur % 2 == 0) {
+        joueur = perso1;
+    } else {
+        joueur = perso2;
+    }
+    // console.log(joueur);
+    nb_allumettes_a_retirer = prompt('Il reste ' + allumettes + ' allumettes. ' + joueur + ' Combien d\'allumettes vous voulez ?');
+    while (nb_allumettes_a_retirer < 1 || nb_allumettes_a_retirer > 3) {
+        nb_allumettes_a_retirer = prompt('Il reste ' + allumettes + ' allumettes. ' + joueur + ' Combien d\'allumettes vous voulez ?');
+    }
+    allumettes = allumettes - nb_allumettes_a_retirer;
+    tour_joueur++;
+}
+alert(joueur + ' a gagné le jeux de nim !');
