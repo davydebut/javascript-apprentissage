@@ -1,0 +1,19 @@
+{
+  "name": "javascript-apprentissage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controle.js",
+  "scripts": {
+    "sass": "sass --watch ./HTML/style.scss:./HTML/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davydebut/javascript-apprentissage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davydebut/javascript-apprentissage/issues"
+  },
+  "homepage": "https://github.com/davydebut/javascript-apprentissage#readme"
+}
