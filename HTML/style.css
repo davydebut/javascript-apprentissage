@@ -1,1 +1,53 @@
-.block{background-color:#15dea5}.block__element{color:#fff}.block__element--modifier{background-color:#001534}.block{background-color:#15dea5}.block__element{color:#fff}.block__element--modifier{background-color:#001534}/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+
+/* .block{
+    background-color: #15DEA5;
+    &__element {
+        color: #fff;
+          &--modifier {
+              background-color: #001534;
+    }
+    }
+  } //  correspond exactement à ça en css à retenir
+ 
+  .block {
+    background-color: #15DEA5;
+  }
+  
+  .block__element {
+    color: #fff;
+  }
+  
+  .block__element--modifier {
+    background-color: #001534;
+  }
+
+ */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.navbar li {
+  display: inline;
+}
+
+li:nth-child(1n+2){
+  margin-left: 10em;
+}
+
+.navbar {
+  background-color: rgba(93, 115, 115, 0.7);
+  width: 100%;
+  float: left;
+}
+
+.code-image{
+  float: left;
+}
+.conteneur-navbar-img {
+  background-image: url(img/code.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */

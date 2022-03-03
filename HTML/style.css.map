@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAAA,OACI,yBACA,gBACI,WACE,0BACI,yBAKZ,OACE,yBAGF,gBACE,WAGF,0BACE","file":"style.css"}
+{
+    "version": 3,
+    "mappings": ";AAAA;;;;;;;;;;;;;;;;;;;;;;GAsBG;AACH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA8BI",
+    "sources": [
+        "style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
