@@ -52,6 +52,10 @@ h3 {
   font-size: xx-large;
 }
 
+.article-3 h1 {
+	font-size: xxx-large;
+}
+
 .navbar ul {
   text-align: center;
 }
@@ -119,7 +123,15 @@ article {
 }
 
 article img {
-  width: 5%;
+  width: 18%;
+}
+
+.article-4 img {
+	width: 10em;
+}
+
+.article-6 h1 {
+    font-size: xxx-large;
 }
 
 .article-1 hr {
@@ -142,10 +154,10 @@ article button {
   background-color: #696969;
   color: white;
   border: 1px solid white;
-  /* Green */
   border-radius: 8px;
   padding: 0.5em;
   text-transform: uppercase;
+  font-size: medium;
 }
 
 hr {
@@ -177,12 +189,23 @@ hr {
 .sous-titre-article2 {
   text-align: center;
   text-transform: uppercase;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.deux-articles img {
+	margin: 0 2em;
+	width: 8em;
+}
+
+.article-2bis img {
+  width: 11em;
 }
 
 .vertical {
   border-left: 0.1em solid #F0F0F0;
   border-radius: 1em;
-  height: 16em;
+  height: 23em;
   display: inline-block;
   margin-top: 1em;
 }
@@ -201,7 +224,7 @@ hr {
 .article-4 img,
 .article-6 img {
   float: right;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .article-5 img {
@@ -211,6 +234,11 @@ hr {
 .article-7 img {
   float: left;
   margin: 1em;
+  width: 15%;
+}
+
+.article-6 img {
+  width: 30%;
 }
 
 article p {
@@ -251,7 +279,7 @@ footer p {
   width: 100%;
   text-transform: uppercase;
   color: white;
-  font-size: x-small;
+  font-size: largel;
 }
 
 footer em:nth-of-type(1) {
@@ -260,6 +288,28 @@ footer em:nth-of-type(1) {
 }
 
 @media screen and (max-width: 980px) {
+
+  .vertical {
+    border-left: 0.1em solid #F0F0F0;
+    border-radius: 1em;
+    height: 16em;
+    display: inline-block;
+    margin-top: 1em;
+  }
+
+  .article-7 img {
+    width: 20%;
+  }
+
+  article button {
+    background-color: #696969;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.5em;
+    text-transform: uppercase;
+  font-size: x-small;
+  }
 
   h3 {
     font-size: large;
@@ -290,6 +340,7 @@ footer em:nth-of-type(1) {
 
   .deux-articles h6 {
     margin-bottom: 0;
+    font-size: x-small;
   }
 
   .deux-articles p {
@@ -301,7 +352,7 @@ footer em:nth-of-type(1) {
   }
 
   p {
-    font-size: small;
+    font-size: x-small;
   }
 
   article img {
