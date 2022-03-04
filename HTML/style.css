@@ -56,7 +56,7 @@ li:nth-child(1n+2) {
 }
 
 .conteneur-navbar-img {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), no-repeat center/cover url(img/code.jpg);
+  background: linear-gradient(170deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5) 160.42%), no-repeat center/cover url(img/code.jpg);
   height: 980px;
   margin: auto 0;
 }
@@ -89,15 +89,87 @@ li:nth-child(1n+2) {
 article {
   text-align: center;
   color: white;
+  background-color: #696969;
+  padding: 0 5em;
 }
 
 article img {
   width: 5%;
 }
 
+.article-1 hr {
+  width: 30%;
+  margin: 0 auto;
+  border: solid white 0.13em;
+  border-radius: 1em;
+}
+
+.article-1 p {
+  text-align: justify;
+}
+
+.titre-article-1 {
+  text-transform: uppercase;
+  margin: 1em 0 0 0;
+}
+
+article button {
+  background-color: #696969;
+  color: white;
+  border: 1px solid white;
+  /* Green */
+  border-radius: 8px;
+  padding: 0.3em 0.5em;
+  text-transform: uppercase;
+}
+
+hr {
+  border: solid #F0F0F0 0.1em;
+  border-radius: 1em;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+.deux-articles {
+	display: flex;
+  justify-content: space-between;
+}
+
+.img-centrer {
+	text-align: center;
+}
+
+.article-2, .article-2bis {
+  width: 45%;
+  text-align: justify;
+}
+.article-2bis {
+  margin: 0;
+}
+.sous-titre-article2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vertical {
+	border-left: 0.1em solid #F0F0F0 ;
+  border-radius: 1em;
+	height: 15em;
+	display: inline-block;
+	margin-top: 1em;
+}
+
 @media screen and (max-width: 980px) {
   article img {
     width: 15%;
+    height: 100%;
+  }
+
+  .deux-articles img:nth-child(1n+2){
+    margin-left: 1em;
+  }
+
+  .deux-articles img {
+    width: 25%;
   }
 
   li:nth-child(1n+2) {
