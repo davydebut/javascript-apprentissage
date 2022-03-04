@@ -36,6 +36,22 @@ body {
   background-color: hsl(0, 0%, 25%);
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
 .navbar ul {
   text-align: center;
 }
@@ -47,6 +63,7 @@ body {
 .navbar li a {
   text-decoration: none;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 li:nth-child(1n+2) {
@@ -77,26 +94,28 @@ li:nth-child(1n+2) {
 .flottant {
   float: right;
   background-color: rgba(93, 130, 130, 0.7);
-  padding: 1em;
+  padding: 0 1em;
   margin-top: 20%;
   text-transform: uppercase;
 }
 
 .titre-page {
   margin-top: 20%;
-  text-transform: uppercase;
-  font-size: xx-large;
+  font-size: 4em;
+  text-indent: 1em;
 }
 
 .sous-titre {
   font-size: xxx-large;
+  text-indent: -3em;
+  text-transform: uppercase;
 }
 
 article {
   text-align: center;
   color: white;
   background-color: #696969;
-  padding: 0 5em;
+  padding: 0 15em;
 }
 
 article img {
@@ -125,7 +144,7 @@ article button {
   border: 1px solid white;
   /* Green */
   border-radius: 8px;
-  padding: 0.3em 0.5em;
+  padding: 0.5em;
   text-transform: uppercase;
 }
 
@@ -163,12 +182,128 @@ hr {
 .vertical {
   border-left: 0.1em solid #F0F0F0;
   border-radius: 1em;
-  height: 15em;
+  height: 16em;
   display: inline-block;
   margin-top: 1em;
 }
 
+.article-3 hr,
+.article-4 hr,
+.article-5 hr,
+.article-6 hr,
+.article-7 hr {
+  width: 30%;
+  margin: 0 auto;
+  border: solid white 0.13em;
+  border-radius: 1em;
+}
+
+.article-4 img,
+.article-6 img {
+  float: right;
+  padding: 1em;
+}
+
+.article-5 img {
+  float: left;
+}
+
+.article-7 img {
+  float: left;
+  margin: 1em;
+}
+
+article p {
+  text-align: justify;
+}
+
+article h3 {
+  margin-bottom: 0;
+}
+
+.sous-titre-3 {
+  margin-bottom: 0;
+}
+
+#HTML5 {
+  float: left;
+}
+
+.article-3 p {
+  text-align: justify;
+}
+
+.article-4 hr {
+  width: 30%;
+  margin: 0 auto;
+  border: solid white 0.13em;
+  border-radius: 1em;
+}
+
+.article-7 button {
+  margin-bottom: 1em;
+}
+
+footer,
+footer p {
+  text-align: center;
+  background-color: hsl(180, 34%, 22%);
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  font-size: x-small;
+}
+
+footer em:nth-of-type(1) {
+  font-weight: bold;
+  font-style: normal;
+}
+
 @media screen and (max-width: 980px) {
+
+  h3 {
+    font-size: large;
+  }
+
+  .flottant p {
+    font-size: xx-small;
+  }
+
+  .titre-page {
+    margin-top: 20%;
+    text-transform: uppercase;
+    font-size: xx-large;
+  }
+
+  .navbar li a {
+  font-size: small;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .article-6 h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+
+  .deux-articles h6 {
+    margin-bottom: 0;
+  }
+
+  .deux-articles p {
+    margin-top: 0.5em;
+  }
+
+  button {
+    font-size: x-small;
+  }
+
+  p {
+    font-size: small;
+  }
+
   article img {
     width: 15%;
     height: 100%;
@@ -189,26 +324,44 @@ hr {
   .titre-page {
     margin-top: 25%;
     text-transform: uppercase;
-    font-size: xx-large !important;
+    font-size: 1.8em;
+    text-indent: 2em;
   }
 
   .sous-titre {
-    font-size: xx-large;
+    font-size: x-large;
+    margin-top: 0;
+    text-indent: 2em;
+    text-transform: uppercase;
   }
 
   .flottant {
-    margin-top: 25%;
+    margin-top: 23%;
     text-transform: uppercase;
     font-size: 0.5em;
+    padding: 0 1em;
   }
 
   .conteneur-navbar-img {
-    height: 620px;
+    height: 550px;
     margin: auto 0;
   }
 
   .navbar {
     padding: 0.5em 0;
+  }
+
+  .article-3 h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+
+  .article-3 h3 {
+    text-transform: uppercase;
+  }
+
+  article {
+    padding: 0 5em;
   }
 
 }
