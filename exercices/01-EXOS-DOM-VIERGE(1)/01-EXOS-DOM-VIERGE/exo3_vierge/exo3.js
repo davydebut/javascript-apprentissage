@@ -1,8 +1,3 @@
-let id = document.querySelectorAll("[id]");
-let classAttr = document.querySelectorAll("[id]");
-console.log(id, id.length);
-// console.log(id[0].attributes[0].textContent);
-
 function infosLiens() {
     // votre code ...
     let liens = document.querySelectorAll("a");
@@ -10,15 +5,15 @@ function infosLiens() {
     console.log(liens[0], liens[liens.length - 1]);
 }
 
-for (let key of id.values(id)) {
-    console.log(key);
-    let nameId = key.attributes[0];
-    console.log(nameId);
-}
-
 function possede(_id, _class) {
     // votre code ...
-    
+    let elementMusique = document.getElementById(_id);
+    // console.log(elementMusique);
+    if (elementMusique != null && elementMusique != undefined) {
+        return elementMusique.classList.contains(_class);
+    } else {
+        return "Aucun élément ne possède l'identifiant."
+    }
 }
 
 infosLiens();
@@ -27,3 +22,14 @@ console.log(possede("saxophone", "bois")); // Doit afficher true
 console.log(possede("saxophone", "cuivre")); // Doit afficher false
 console.log(possede("trompette", "cuivre")); // Doit afficher true
 console.log(possede("contrebasse", "cordes")); // Doit afficher une erreur
+
+/* for (let key of id.values(id)) {
+        console.log(key);
+        let nameId = key.attributes[0].value;
+        console.log(nameId);
+        if(nameId != ""){
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+    } */
