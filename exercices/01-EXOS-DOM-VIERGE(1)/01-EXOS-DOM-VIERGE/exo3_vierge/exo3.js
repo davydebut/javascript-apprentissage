@@ -8,7 +8,8 @@ function infosLiens() {
 function possede(_id, _class) {
     // votre code ...
     let elementMusique = document.getElementById(_id);
-    // console.log(elementMusique);
+    console.log(elementMusique); // il récupère ce qui a dans le html pour la balise dans le li l'id
+    console.log(_id); // il récupère ce qu'il y a entre paramètre dans la fonction
     if (elementMusique != null && elementMusique != undefined) {
         return elementMusique.classList.contains(_class);
     } else {
