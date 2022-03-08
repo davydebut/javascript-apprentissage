@@ -40,11 +40,26 @@
                         <tr>
                             <td>Gomme</td>
                             <td>1,50€</td>
+                            <td>
+                                <label for="taxe-select">Choisir la taxe:</label>
+
+                                <select name="taxes" id="taxe-select">
+                                    <option value="">--Please choose an option--</option>
+                                    <option value="20">20%</option>
+                                    <option value="5">5,5%</option>
+                                </select>
+
+                            </td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>
+                                <button type="submit">Calculer</button>
+                            </td>
+                            <td>
+                                <button type="reset">Effacer</button>
+                            </td>
+                            <td>
+                                <button type="reset">Supprimer</button>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
