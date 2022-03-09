@@ -21,9 +21,14 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-9 mx-auto mt-5 text-center">
+            <div class="col-sm-12 mx-auto text-center">
                 <h1>Exercice Tableau de Tva</h1>
-
+                <div class="my-5">
+                    <button type="submit" class="btn btn-outline-primary" id="nvl">Nouvelle ligne</button>
+                    <button type="submit" class="btn btn-outline-primary" id="sprl">Supprimer la ligne</button>
+                    <button type="submit" class="btn btn-outline-primary" id="del">Effacer les champs</button>
+                    <button type="submit" class="btn btn-outline-primary" id="calc">Calculer le total</button>
+                </div>
                 <table class="table table-dark">
                     <thead>
                         <tr>
@@ -37,28 +42,25 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr id="ligne1">
                             <td>Gomme</td>
                             <td>1,50€</td>
                             <td>
-                                <label for="taxe-select">Choisir la taxe:</label>
-
                                 <select name="taxes" id="taxe-select">
-                                    <option value="">--Please choose an option--</option>
+                                    <option value="choix">--Choisir la taxe :--</option>
                                     <option value="20">20%</option>
                                     <option value="5">5,5%</option>
                                 </select>
-
                             </td>
                             <td></td>
                             <td>
-                                <button type="submit">Calculer</button>
+                                <button id='btn-calc' class="btn btn-primary" type="submit">Calculer</button>
                             </td>
                             <td>
-                                <button type="reset">Effacer</button>
+                                <button id='btn-del' class="btn btn-light" type="reset">Effacer</button>
                             </td>
                             <td>
-                                <button type="reset">Supprimer</button>
+                                <button id='btn-res' class="btn btn-danger" type="reset">Supprimer</button>
                             </td>
                         </tr>
                     </tbody>
