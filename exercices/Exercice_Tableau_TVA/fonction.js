@@ -51,7 +51,7 @@ btnNvl.addEventListener('click', function () { // action bouton
         tdSprl = document.createElement('td');
     tdLibelle.innerHTML = "<input type='text'>",
         tdHt.innerHTML = "<input type='number'>",
-        tdTva.innerHTML = "<select name='taxes' id='taxe-select'><option value='choix'>--Choisir la taxe :--</option><option value='20'>20%</option><option value='5'>5,5%</option></select>",
+        tdTva.innerHTML = "<select name='taxes' id='taxe-select'><op0tion value='choix'>--Choisir la taxe :--</op0tion><option value='20'>20%</option><option value='5'>5,5%</option></select>",
         tdTtc.innerHTML = "<td></td>",
         tdCalc.innerHTML = "<button class='btn btn-primary' type='submit'>Calculer</button>",
         tdDel.innerHTML = "<button class='btn btn-light' type='reset'>Effacer</button>",
@@ -75,12 +75,12 @@ btnSprl.addEventListener('click', function () {
     // compter combien de tr il reste
     if (tableauBody.querySelectorAll("tr").length > 1) {
         tableauBody.removeChild(tableauBody.lastChild);
-        // btnSprl.disabled=true;
+        btnSprl.classList.toggle()
     }
 })
 
 btnDel.addEventListener('click', function () {
-    
+    tableauBody.removeChild(tableauBody.lastChild.children[0].children[0].childNodes[0].textContent)
 })
 
 let tableau = document.getElementsByTagName('table')[0],
@@ -93,4 +93,6 @@ console.log(tableauCol);
 // premier élément du noeud liste des enfants de tableauCol
 textCol = tableauCol.childNodes[0];
 console.log(textCol);
-console.log(tableauBody.children[0]);
+console.log(tableauBody.children[0].children[0].childNodes[0].textContent);
+// [0]childNodes[0].textContent
+console.log(btnSprl.classList);
