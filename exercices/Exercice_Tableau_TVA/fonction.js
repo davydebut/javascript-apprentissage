@@ -30,7 +30,9 @@ let trlgn1 = document.getElementById("ligne1"),
 
     btn_calc = document.getElementById('btn-calc'),
     btn_del = document.getElementById('btn-del'),
-    btn_res = document.getElementById('btn-res');
+    btn_res = document.getElementById('btn-res'),
+    tableauBody = document.querySelector('#tbodyId');
+
 
 
 // tr_prime = tr.cloneNode(true);
@@ -38,8 +40,7 @@ let trlgn1 = document.getElementById("ligne1"),
 
 btnNvl.addEventListener('click', function () { // action bouton
     let crtNvl = document.createElement('tr');
-    crtNvl.setAttribute("id", "Ligne" + indexLigne);
-    indexLigne++;
+    crtNvl.setAttribute("class", "Ligne");
     tbody.appendChild(crtNvl);
     // créer la colonne td
     let tdLibelle = document.createElement('td'),
@@ -49,13 +50,13 @@ btnNvl.addEventListener('click', function () { // action bouton
         tdCalc = document.createElement('td'),
         tdDel = document.createElement('td'),
         tdSprl = document.createElement('td');
-    tdLibelle.innerHTML = "<input type='text'>",
-        tdHt.innerHTML = "<input type='number'>",
-        tdTva.innerHTML = "<select name='taxes' id='taxe-select'><op0tion value='choix'>--Choisir la taxe :--</op0tion><option value='20'>20%</option><option value='5'>5,5%</option></select>",
+    tdLibelle.innerHTML = "<input type='text' class='inside'>",
+        tdHt.innerHTML = "<input type='number' class='prixInside'>",
+        tdTva.innerHTML = "<select name='taxes' class='taxes'><option value='choix'>--Choisir la taxe :--</option><option value='1'>15%</option><option value='2'>5,5%</option></select>",
         tdTtc.innerHTML = "<td></td>",
-        tdCalc.innerHTML = "<button class='btn btn-primary' type='submit'>Calculer</button>",
-        tdDel.innerHTML = "<button class='btn btn-light' type='reset'>Effacer</button>",
-        tdSprl.innerHTML = "<button id='btn-res" + indexLigne + "' class='btn btn-danger' type='reset'>Supprimer</button>";
+        tdCalc.innerHTML = "<button class='btn btn-primary calculer' type='submit'>Calculer</button>",
+        tdDel.innerHTML = "<button class='btn btn-light effacer' type='reset'>Effacer</button>",
+        tdSprl.innerHTML = "<button id='btn-res' class='btn btn-danger supprimer' type='reset'>Supprimer</button>";
     crtNvl.appendChild(tdLibelle);
     crtNvl.appendChild(tdHt);
     crtNvl.appendChild(tdTva);
@@ -63,11 +64,70 @@ btnNvl.addEventListener('click', function () { // action bouton
     crtNvl.appendChild(tdCalc);
     crtNvl.appendChild(tdDel);
     crtNvl.appendChild(tdSprl);
-    tdCalc.setAttribute('id', 'btn-calc' + indexLigne);
-    tdDel.setAttribute('id', 'btn-del' + indexLigne);
+    tdDel.setAttribute('id', 'btn-del');
     // tdSprl.setAttribute('id', 'btn-res'+btn_ligne);
-    btnSprl.disabled = false;
+    tdTtc.setAttribute('class', 'ttc');
+    // console.log(crtNvl);
+
+    let petitEffacer = document.getElementsByClassName('effacer');
+    // console.log(petitEffacer);
+    let classeEffacer = document.getElementsByClassName("inside");
+    // console.log(classeEffacer);
+    let classeEffacer1 = document.getElementsByClassName("prixInside");
+    for (let i = 0; i < classeEffacer.length; i++) {
+        petitEffacer[i].addEventListener('click', function () {
+            classeEffacer[i].value = "";
+            classeEffacer1[i].value = "";
+        })
+    }
+
+    let ligneTr = document.querySelectorAll('.Ligne');
+    let supprimer = document.getElementsByClassName('supprimer');
+    // console.log(supprimer);
+    // console.log(ligneTr);
+
+    for (let i = 0; i < classeEffacer.length; i++) {
+        // console.log(supprimer[i]);
+        supprimer[i].addEventListener('click', function () {
+
+            /* let cible = e.target.parentElement.parentElement;
+            let bouton = 
+            console.log(cible);
+            cible.remove(); */
+            tableauBody.removeChild(ligneTr[i]);
+        })
+    }
+
+    let pbc = document.querySelectorAll('.calculer');
+    console.log(pbc);
+
+    for (let i = 0; i < classeEffacer.length; i++) {
+        console.log(tableauBody[i]);
+        pbc[i].addEventListener('click', function () {
+            let prixTtc = document.querySelectorAll('.ttc');
+            let inputCalcul = document.getElementsByClassName("prixInside")[i];
+            console.log(inputCalcul);
+            let selectCalcul = document.getElementsByClassName('taxes')[i].options[document.getElementsByClassName('taxes')[i].selectedIndex].value;
+            console.log(selectCalcul);
+            console.log(typeof selectCalcul);
+            if (selectCalcul == '1') {
+               let resultat = inputCalcul.value / 100;
+            //    console.log(resultat);
+                resultat = resultat * 20;
+                let calculValue = parseInt(inputCalcul.value);
+                let multiple = resultat + calculValue;
+                prixTtc[i].textContent = multiple;
+                console.log(resultat);
+            }
+            
+        })
+
+    }
+
+    // console.log(tableauBody.children);
 })
+
+
 
 btnSprl.addEventListener('click', function () {
     // tbody
@@ -82,14 +142,30 @@ btnSprl.addEventListener('click', function () {
 })
 
 btnDel.addEventListener('click', function () {
-    if (tableauBody.children.length > 1) {
-        tableauBody.removeChild(tableauBody.children[1]);
-
-        // noeud 
+    let classeEffacer = document.getElementsByClassName("inside");
+    let classeEffacer1 = document.getElementsByClassName("prixInside");
+    console.log(classeEffacer);
+    console.log(classeEffacer1);
+    // noeud à chercher dans l'arborescence du DOM pour modifier contenu input
+    for (let i = 0; i < classeEffacer.length; i++) {
+        classeEffacer[i].value = "";
+        classeEffacer1[i].value = "";
+        // console.log(tableauCol[i]);
+        //    console.log(tableauCol[i].children[0].value);
+        /* let effacer1 = classeEffacer[i].children[0].attributes[1].value,
+            effacer2 = classeEffacer[i].children[0].attributes[1].value;
+        classeEffacer[i].children[0].attributes[1].value = "";
+        classeEffacer[i].children[0].attributes[1].value = "";
+        console.log(effacer1);
+        console.log(effacer2); */
     }
+    // console.log(tableauCol[0].children[0].attributes[1].value);
+    // console.log(tableauCol[1].children[0].attributes[1].value);
+
 })
 
-let tableau = document.getElementsByTagName('table')[0],
+
+/* let tableau = document.getElementsByTagName('table')[0],
     tableauBody = document.getElementsByTagName('tbody')[0],
     tableauLigne = document.getElementsByTagName('tr')[0], // ligne du tableau
     tableauCol = document.getElementsByTagName('td');
@@ -102,3 +178,5 @@ console.log(textCol);
 console.log(tableauBody.children[0].children[0].childNodes[0].textContent);
 // [0]childNodes[0].textContent
 console.log(btnSprl.classList);
+
+console.log(tableauCol[0].children[0].value); */

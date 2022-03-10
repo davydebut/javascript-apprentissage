@@ -29,7 +29,7 @@
                     <button type="submit" class="btn btn-outline-primary" id="del">Effacer les champs</button>
                     <button type="submit" class="btn btn-outline-primary" id="calc">Calculer le total</button>
                 </div>
-                <table class="table table-dark">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th scope="col">Libellé</th>
@@ -41,10 +41,10 @@
                             <th scope="col">Supprimer</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="tbodyId">
                         <tr id="ligne1">
-                            <td><input type="text"></td>
-                            <td>1,50€</td>
+                            <td><input type="text" value="Gomme"></td>
+                            <td><input type="number" value="1.50"></td>
                             <td>
                                 <select name="taxes" id="taxe-select">
                                     <option value="choix">--Choisir la taxe :--</option>
@@ -57,10 +57,10 @@
                                 <button id='btn-calc' class="btn btn-primary" type="submit">Calculer</button>
                             </td>
                             <td>
-                                <button id='btn-del' class="btn btn-light" type="reset">Effacer</button>
+                                <button id='btn-del' class="btn btn-light" disabled type="reset">Effacer</button>
                             </td>
                             <td>
-                                <button id='btn-res' class="btn btn-danger" type="reset">Supprimer</button>
+                                <button id='btn-res' class="btn btn-danger" disabled type="reset">Supprimer</button>
                             </td>
                         </tr>
                     </tbody>
