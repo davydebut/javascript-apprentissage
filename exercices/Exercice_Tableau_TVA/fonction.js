@@ -66,7 +66,7 @@ btnNvl.addEventListener('click', function () { // action bouton
     tdCalc.setAttribute('id', 'btn-calc' + indexLigne);
     tdDel.setAttribute('id', 'btn-del' + indexLigne);
     // tdSprl.setAttribute('id', 'btn-res'+btn_ligne);
-
+    btnSprl.disabled = false;
 })
 
 btnSprl.addEventListener('click', function () {
@@ -75,23 +75,29 @@ btnSprl.addEventListener('click', function () {
     // compter combien de tr il reste
     if (tableauBody.querySelectorAll("tr").length > 1) {
         tableauBody.removeChild(tableauBody.lastChild);
-        btnSprl.classList.toggle()
+    }
+    if (tableauBody.querySelectorAll('tr').length < 2) {
+        btnSprl.disabled = true
     }
 })
 
 btnDel.addEventListener('click', function () {
-    tableauBody.removeChild(tableauBody.lastChild.children[0].children[0].childNodes[0].textContent)
+    if (tableauBody.children.length > 1) {
+        tableauBody.removeChild(tableauBody.children[1]);
+
+        // noeud 
+    }
 })
 
 let tableau = document.getElementsByTagName('table')[0],
     tableauBody = document.getElementsByTagName('tbody')[0],
     tableauLigne = document.getElementsByTagName('tr')[0], // ligne du tableau
-    tableauCol = document.getElementsByTagName('td')[0];
-console.log(tableauBody);
-console.log(tableauLigne);
+    tableauCol = document.getElementsByTagName('td');
+console.log(tableauBody.children.length);
+console.log(tableauLigne.children);
 console.log(tableauCol);
 // premier élément du noeud liste des enfants de tableauCol
-textCol = tableauCol.childNodes[0];
+textCol = tableauCol.childNodes;
 console.log(textCol);
 console.log(tableauBody.children[0].children[0].childNodes[0].textContent);
 // [0]childNodes[0].textContent
