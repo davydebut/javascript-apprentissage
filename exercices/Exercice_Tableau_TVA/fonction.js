@@ -52,7 +52,7 @@ btnNvl.addEventListener('click', function () { // action bouton
         tdSprl = document.createElement('td');
     tdLibelle.innerHTML = "<input type='text' class='inside'>",
         tdHt.innerHTML = "<input type='number' class='prixInside'>",
-        tdTva.innerHTML = "<select name='taxes' class='taxes'><option value='choix'>--Choisir la taxe :--</option><option value='1'>15%</option><option value='2'>5,5%</option></select>",
+        tdTva.innerHTML = "<select name='taxes' class='taxes'><option value='1'>20%</option><option value='2'>5,5%</option></select>",
         tdTtc.innerHTML = "<td></td>",
         tdCalc.innerHTML = "<button class='btn btn-primary calculer' type='submit'>Calculer</button>",
         tdDel.innerHTML = "<button class='btn btn-light effacer' type='reset'>Effacer</button>",
@@ -67,6 +67,7 @@ btnNvl.addEventListener('click', function () { // action bouton
     tdDel.setAttribute('id', 'btn-del');
     // tdSprl.setAttribute('id', 'btn-res'+btn_ligne);
     tdTtc.setAttribute('class', 'ttc');
+    tdTtc.setAttribute('type', 'number');
     // console.log(crtNvl);
 
     let petitEffacer = document.getElementsByClassName('effacer');
@@ -101,8 +102,8 @@ btnNvl.addEventListener('click', function () { // action bouton
     let pbc = document.querySelectorAll('.calculer');
     console.log(pbc);
 
-    for (let i = 0; i < classeEffacer.length; i++) {
-        console.log(tableauBody[i]);
+    for (let i = 0; i < classeEffacer.length; i++) { // Petit Bouton Calculer
+        console.log(classeEffacer);
         pbc[i].addEventListener('click', function () {
             let prixTtc = document.querySelectorAll('.ttc');
             let inputCalcul = document.getElementsByClassName("prixInside")[i];
@@ -111,15 +112,30 @@ btnNvl.addEventListener('click', function () { // action bouton
             console.log(selectCalcul);
             console.log(typeof selectCalcul);
             if (selectCalcul == '1') {
-               let resultat = inputCalcul.value / 100;
-            //    console.log(resultat);
+                let resultat = inputCalcul.value / 100;
+                console.log(resultat);
                 resultat = resultat * 20;
+                console.log(resultat);
                 let calculValue = parseInt(inputCalcul.value);
+                console.log(calculValue);
                 let multiple = resultat + calculValue;
                 prixTtc[i].textContent = multiple;
-                console.log(resultat);
+                console.log(multiple);
+                tabCalc[i] = multiple; // index 0 resultat 1
             }
-            
+            if (selectCalcul == '2') {
+                let resultat2 = inputCalcul.value / 100;
+                console.log(resultat2);
+                resultat2 *= 5.5;
+                console.log(resultat2);
+                let calculValue2 = parseInt(inputCalcul.value);
+                console.log(calculValue2);
+                let multiple2 = resultat2 + calculValue2;
+                console.log(multiple2);
+                prixTtc[i].textContent = multiple2;
+                tabCalc[i] = multiple2; // index 1 resulat 2
+            }
+
         })
 
     }
@@ -127,6 +143,19 @@ btnNvl.addEventListener('click', function () { // action bouton
     // console.log(tableauBody.children);
 })
 
+let tabCalc = [];
+console.log(tabCalc);
+
+// Gros bouton calculer
+// recupere la classe ttc et le bouton btnCalc = document.getElementById('calc');
+btnCalc.addEventListener('click', function () {
+    let sum = 0;
+    // input prix ttc
+    for (let i = 0; i < tabCalc.length; i++) {
+        sum += tabCalc[i];
+    }
+    console.log(sum.toFixed(2));
+})
 
 
 btnSprl.addEventListener('click', function () {
@@ -164,6 +193,27 @@ btnDel.addEventListener('click', function () {
 
 })
 
+let btn1Cal = document.getElementById('btn-calc');
+
+btn1Cal.addEventListener('click', function () {
+    let prixTtc1 = document.querySelector('#prixTtc1');
+    let inputNumber = document.getElementById('inputNumber').value;
+    let selectCalcul1 = document.getElementById('taxe-select').options[document.getElementById('taxe-select').selectedIndex].value;
+    let numberLigne1 = parseFloat(inputNumber);
+    if (selectCalcul1 == '20') {
+        let resLigne1 = numberLigne1 / 100;
+        resLigne1 * 20;
+        let resFinal = numberLigne1 + resLigne1;
+        console.log(resFinal);
+        prixTtc1.textContent = resFinal.toFixed(2);
+    }
+    if (selectCalcul1 == '5') {
+        let resLigne2 = numberLigne1 /100;
+        let resMul = resLigne2 * 5.5;
+        let resFinal = numberLigne1 + resMul;
+        prixTtc1.textContent = resFinal.toFixed(2);
+    }
+})
 
 /* let tableau = document.getElementsByTagName('table')[0],
     tableauBody = document.getElementsByTagName('tbody')[0],
