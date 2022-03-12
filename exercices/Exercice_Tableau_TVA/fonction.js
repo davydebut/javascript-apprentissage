@@ -10,9 +10,9 @@ let btnNvl = document.getElementById('nvl'),
     btnDel = document.getElementById('del'),
     btnCalc = document.getElementById('calc');
 
-// Ajouter une ligne (clone la prmière ligne sans les valeurs et l'ajoute à la suite)
+/* // Ajouter une ligne (clone la prmière ligne sans les valeurs et l'ajoute à la suite)
 // var dupNode = node.cloneNode([deep]); => .clone()
-/* node
+node
 Le noeud à dupliquer.
                                             Exemple
                                             p = document.getElementById("para1");
@@ -32,8 +32,6 @@ let trlgn1 = document.getElementById("ligne1"),
     btn_del = document.getElementById('btn-del'),
     btn_res = document.getElementById('btn-res'),
     tableauBody = document.querySelector('#tbodyId');
-
-
 
 // tr_prime = tr.cloneNode(true);
 // document.body.appendChild(tr_prime);
@@ -143,21 +141,6 @@ btnNvl.addEventListener('click', function () { // action bouton
     // console.log(tableauBody.children);
 })
 
-let tabCalc = [];
-console.log(tabCalc);
-
-// Gros bouton calculer
-// recupere la classe ttc et le bouton btnCalc = document.getElementById('calc');
-btnCalc.addEventListener('click', function () {
-    let sum = 0;
-    // input prix ttc
-    for (let i = 0; i < tabCalc.length; i++) {
-        sum += tabCalc[i];
-    }
-    console.log(sum.toFixed(2));
-})
-
-
 btnSprl.addEventListener('click', function () {
     // tbody
     let tableauBody = document.getElementsByTagName('tbody')[0];
@@ -208,11 +191,34 @@ btn1Cal.addEventListener('click', function () {
         prixTtc1.textContent = resFinal.toFixed(2);
     }
     if (selectCalcul1 == '5') {
-        let resLigne2 = numberLigne1 /100;
+        let resLigne2 = numberLigne1 / 100;
         let resMul = resLigne2 * 5.5;
         let resFinal = numberLigne1 + resMul;
         prixTtc1.textContent = resFinal.toFixed(2);
     }
+})
+
+let tabCalc = [];
+console.log(tabCalc);
+
+// Gros bouton calculer
+// recupere la classe ttc et le bouton btnCalc = document.getElementById('calc');
+btnCalc.addEventListener('click', function () {
+    let sum = 0;
+    // input prix ttc
+    for (let i = 0; i < tabCalc.length; i++) {
+        sum += tabCalc[i];
+    }
+    console.log(sum.toFixed(2));
+
+    let divResult = document.createElement('div'),
+        elementDiv = document.querySelector('.col-sm-12');
+    // console.log(elementDiv);
+    divResult.setAttribute('id', 'totalTab');
+    elementDiv.appendChild(divResult);
+    divResult.innerHTML = "<p id='magieTotal'></p>";
+    let magieTotal = document.getElementById('magieTotal');
+    magieTotal.textContent = 'Total du tableau : ' + sum.toFixed(2);
 })
 
 /* let tableau = document.getElementsByTagName('table')[0],
