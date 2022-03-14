@@ -2,13 +2,14 @@ let mdpSaisi,
     regexMaj = new RegExp("[A-Z]"),
     regexMin = new RegExp("[a-z]"),
     regexChiffre = new RegExp("[0-9]"),
-    regexSpecial = new RegExp("[\\W]"),
+    regexSpecial = new RegExp("[\\W+]"),
     compteur,
     message = document.querySelector('#message');
 
 function verifierProposition() {
     compteur = 0;
-    mdpSaisi = document.querySelector('#mdp').value;
+    mdpSaisi = document.getElementById("mdp").value;
+    // console.log(mdpSaisi);
 
     if (regexMaj.test(mdpSaisi)) {
         compteur++;
@@ -47,4 +48,4 @@ function verifierProposition() {
     }
 }
 
-document.querySelector('#mdp').addEventListener('keyup', verifierProposition);
+document.querySelector('#mdp').addEventListener('keyup', verifierProposition,false);
