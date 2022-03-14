@@ -37,14 +37,18 @@ let nomObjet = [ //nomObjet[3]=guitare; nomObjet&imageObjet[aleatoire=3];
     affichageTentative = document.getElementById('nbre-tentative'),
     resultatDebog;
 
+    // créer une fonction qui prend en paramètre le nombre maximum indiqué
+    // dans la question
+
 function genererUnChiffre(valeurMax) {
     return resultatDebog = Math.floor(Math.random() * Math.floor(valeurMax));
     // nombre aléatoire multiplié par le nombre maximum
-    // soit du prix (valeurMax = 100) ou du tableau (valeurMax = 5)
+    // soit du prix (valeurMax = 100)
+    // ou du tableau (valeurMax = 5, index 0-4 mais lenght = 5)
 }
 
 // console.log(typeof resultatDebog); // exemple = 78 pour le prix mystere ou 2 pour le tableau
-prixMystere = genererUnChiffre(100) + 1; // exemple = 78+1=79
+prixMystere = genererUnChiffre(100); // exemple = 78+1=79
 nbreAleatoire = genererUnChiffre(5); // exemple = 2
 
 function afficherImage(valeur) { // la valeur c'est l'index aléatoire du tableau
@@ -73,7 +77,7 @@ function verifierProposition() {
             affichageTentative.innerHTML = "Il vous reste " + compteurTentative + " tentatives...";
         }
         if (prixPopose == prixMystere) {
-            message.innerHTML = "Bravo vous avez gangé !";
+            message.innerHTML = "Bravo vous avez gagné !";
             affichageTentative.innerHTML = "En " + compteurTentative + " tentavies...";
             bouton.disabled = true;
         }
