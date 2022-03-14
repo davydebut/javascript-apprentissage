@@ -16,7 +16,7 @@ let totalSaisi = document.getElementById('total').value,
 // Enfin on affiche le résultat du nombre de billet et de pièces
 
 function operation(){
-    aRendre = monnaieSaisi - totalSaisi;
+    aRendre = totalSaisi - monnaieSaisi ;
     // aRendre = 150 - 125;
     billet10 = 0;
     billet5 = 0;

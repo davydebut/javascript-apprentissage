@@ -18,32 +18,38 @@
     <!-- Montant du ticket à payer - la somme du client à donné = reste de la monnaie à rendre -->
 
     <!-- .container>.row.mt-5>.col-sm-12.text-center>h1{Calcul de rendu de monnaie}^^.row.mt-2>.col-sm-3.mt-5.text-center>.mb-6>label.form-label+input.form-control#total^^.col-sm-3.mt-5.text-center>.mb-6>label.form-label+input.form-control#monnaie^^^.row.mt-2>.col-sm-12>.text-center>button#button.btn.btn-primary.mt-5^^^.row.mt-5>.col-sm-1+.col-sm-3>.card>.card-body.dix-euro>#message10.valeur-alignee^^^.col-sm-3>.card>.card-body.dix-euro>#message5.valeur-alignee^^^.col-sm-3>.card>.card-body.dix-euro>#message1.valeur-alignee -->
-
-    <h1>Calcul de rendu de monnaie</h1>
-
-    <label for="total">Saisissez le montant total à payer :</label>
-    <input type="number" id="total">
-    <label for="monnaie">Saisissez le montant donné par le client</label>
-    <input type="number" id="monnaie">
-
-    <button type="submit" id="button">Rendre la monnaie</button>
-
-    <div class="row">
-        <div class="col-sm-3 mx-auto mt-5 text-center">
-            <div id="message10" style="background-color: red; height: 5em;">
-            <p id="message10"></p>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-12 text-center mb-3">
+                <h1>Calcul de rendu de monnaie</h1>
+                <label for="total">Saisissez le montant total à payer :</label>
+                <input type="number" id="total">
+                <label for="monnaie">Saisissez le montant donné par le client</label>
+                <input type="number" id="monnaie">
             </div>
+            <button type="submit" id="button" class="mx-auto">Rendre la monnaie</button>
         </div>
-        <div class="col-sm-3 mx-auto mt-5 text-center">
-            <div id="message5" style="background-color: red; height: 5em;"></div>
-        </div>
-        <div class="col-sm-3 mx-auto mt-5 text-center">
-            <div id="message1" style="background-color: red; height: 5em;"></div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <img src="./img/dixeuros_f7cc6df316.jpg" alt="" width="100%">
+                <div id="message10">
+                </div>
+            </div>
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <img src="./img/5c93baa3240000b000c863ed.jpeg" alt="" width="100%">
+                <div id="message5">
+                </div>
+            </div>
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <img src="./img/1eurBANC.jpg" alt="" width="100%">
+                <div id="message1">
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="app.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
