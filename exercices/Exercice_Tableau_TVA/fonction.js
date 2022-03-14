@@ -1,7 +1,7 @@
 // Fonctionnalités générales : écrite dans des fonctions, n'oublie pas de penser que tout
 // est une boite avec d'autre boites a l'intérieur rappel toi
 
-let indexLigne = 2;
+let indexLigne = 2; //concaténation de plusieurs nombre de ligne en incrémentent : ligne1, ligne2 etc
 
 // en premier créer 3 boutons
 
@@ -68,17 +68,19 @@ btnNvl.addEventListener('click', function () { // action bouton
     tdTtc.setAttribute('type', 'number');
     // console.log(crtNvl);
 
-    let petitEffacer = document.getElementsByClassName('effacer');
+    let petitEffacer = document.getElementsByClassName('effacer'); // Je récupère le bouton
     // console.log(petitEffacer);
-    let classeEffacer = document.getElementsByClassName("inside");
-    // console.log(classeEffacer);
+    let classeEffacer = document.getElementsByClassName("inside"); // Je récupère l'input avec rien en value
+    // console.log(classeEffacer); 
     let classeEffacer1 = document.getElementsByClassName("prixInside");
-    for (let i = 0; i < classeEffacer.length; i++) {
+    for (let i = 0; i < classeEffacer.length; i++) { // Je rentre dans le tableau collection html pour récupérer l'index du bouton effacer
         petitEffacer[i].addEventListener('click', function () {
             classeEffacer[i].value = "";
             classeEffacer1[i].value = "";
         })
     }
+
+    // je fais la même chose pour supprimer
 
     let ligneTr = document.querySelectorAll('.Ligne');
     let supprimer = document.getElementsByClassName('supprimer');
@@ -98,17 +100,17 @@ btnNvl.addEventListener('click', function () { // action bouton
     }
 
     let pbc = document.querySelectorAll('.calculer');
-    console.log(pbc);
+    // console.log(pbc);
 
     for (let i = 0; i < classeEffacer.length; i++) { // Petit Bouton Calculer
-        console.log(classeEffacer);
+        // console.log(classeEffacer); // je récupère la longueur de l'input libellé
         pbc[i].addEventListener('click', function () {
-            let prixTtc = document.querySelectorAll('.ttc');
-            let inputCalcul = document.getElementsByClassName("prixInside")[i];
-            console.log(inputCalcul);
+            let prixTtc = document.querySelectorAll('.ttc'); // je récupère le td du Prix TTC
+            let inputCalcul = document.getElementsByClassName("prixInside")[i]; // je récupère l'intérieur du Prix HT
+            // console.log(inputCalcul);
             let selectCalcul = document.getElementsByClassName('taxes')[i].options[document.getElementsByClassName('taxes')[i].selectedIndex].value;
-            console.log(selectCalcul);
-            console.log(typeof selectCalcul);
+            // console.log(selectCalcul); // C'est la valeur qui est contenu dans la balise option soit 1 ou 2
+            // console.log(typeof selectCalcul); // c'est un string
             if (selectCalcul == '1') {
                 let resultat = inputCalcul.value / 100;
                 console.log(resultat);
@@ -144,13 +146,17 @@ btnNvl.addEventListener('click', function () { // action bouton
 btnSprl.addEventListener('click', function () {
     // tbody
     let tableauBody = document.getElementsByTagName('tbody')[0];
+    console.log(tableauBody.querySelectorAll("tr").length);
+    // btnSprl.setAttribute('style', '#sprl:disabled');
     // compter combien de tr il reste
     if (tableauBody.querySelectorAll("tr").length > 1) {
         tableauBody.removeChild(tableauBody.lastChild);
+        btnSprl.disabled = false;
     }
     if (tableauBody.querySelectorAll('tr').length < 2) {
-        btnSprl.disabled = true
+        btnSprl.disabled = true;
     }
+    console.log(btnSprl.disabled);
 })
 
 btnDel.addEventListener('click', function () {
