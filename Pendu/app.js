@@ -1,7 +1,7 @@
 let mots = [
-    "embastionnâtes",
+    "surintendantes",
     "embarrasseriez",
-    "féminiseraient",
+    "charcuteraient",
     "frictionneriez",
     "chanstiquaient",
     "recondamnasses"
