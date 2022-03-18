@@ -1,0 +1,47 @@
+html {
+    font-weight: 500;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.bloc1, .bloc2, .bloc3, .bloc4 {
+    width: 33.33%;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.bloc1 {
+    background-color: blue;
+    width: 100%;
+    /* order: 3; */
+}
+
+.bloc2 {
+    background-color: red;
+    /* order: 1; */
+}
+
+.bloc3 {
+    background-color: green;
+    /* order: 2; */
+}
+
+.bloc4 {
+    background-color: yellow;
+    color: black;
+    /* order: 4; */
+}
