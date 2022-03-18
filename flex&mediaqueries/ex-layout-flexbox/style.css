@@ -1,0 +1,77 @@
+body {
+    background-color: gray;
+}
+
+#conteneur {
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header,
+nav,
+footer,
+section,
+aside {
+    background-color: lightgrey;
+    border-radius: 0.3em;
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+    width: 100%;
+    order: 1;
+}
+
+nav {
+    background-color: lightblue;
+    order: 2;
+}
+
+nav+section {
+    background-color: lightcoral;
+    flex-basis: 40%;
+    order: 4;
+    flex-grow: 2;
+}
+
+#conteneur section:nth-child(4n) {
+    background-color: mediumorchid;
+    order: 8;
+    flex-basis: 30%;
+}
+
+#conteneur section:nth-child(4n-2) {
+    background-color: darkseagreen;
+    order: 6;
+    flex-basis: 30%;
+}
+
+#conteneur section:nth-child(5n+2) {
+    background-color: goldenrod;
+    flex-basis: 30%;
+    order: 7;
+}
+
+
+#conteneur aside:nth-child(2n) {
+    background-color: cornflowerblue;
+    flex-basis: 20%;
+    order: 3;
+}
+#conteneur aside:nth-child(odd) {
+    background-color: cadetblue;
+    flex-basis: 20%;
+    order: 5;
+}
+
+section {
+    /* width: 33.33%; */
+    margin: 1em auto;
+    height: 20em;
+}
+
+footer {
+    order: 9;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1023px) {
+    
+    nav+section {
+        margin: 1em;
+        flex-basis: 100%;
+        order: 3;
+    }
+
+    #conteneur aside:nth-child(2n) {
+        flex-basis: 43.33%;
+    }
+
+    #conteneur aside:nth-child(odd) {
+        flex-basis: 43.33%;
+    }
+
+}
