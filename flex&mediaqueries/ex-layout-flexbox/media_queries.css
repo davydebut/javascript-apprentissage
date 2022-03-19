@@ -1,5 +1,5 @@
 @media screen and (max-width: 1023px) {
-    
+
     nav+section {
         margin: 1em;
         flex-basis: 100%;
@@ -14,4 +14,54 @@
         flex-basis: 43.33%;
     }
 
+    #conteneur section:nth-child(n+4) {
+        flex-basis: 26.33%;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+
+    header,
+    nav,
+    nav+section,
+    aside,
+    footer {
+        margin: 1% 0;
+        flex-basis: 100%;
+    }
+
+    #conteneur section:nth-child(n+4),
+    nav+section {
+        flex-basis: 100%;
+        margin: 1% 0;
+        height: 15em;
+    }
+
+    #conteneur aside:nth-child(2n) {
+        height: 15em;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    body,
+    #conteneur,
+    header,
+    nav,
+    nav+section,
+    aside,
+    footer,
+    #conteneur section:nth-child(n+4),
+    #conteneur aside:nth-child(2n) {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        flex-basis: 100% !important;
+    }
+
+    #conteneur aside:nth-child(2n+1) {
+        height: 15em;
+    }
 }
