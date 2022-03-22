@@ -1,0 +1,105 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;310&lt;/y&gt;&lt;w&gt;180&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+contient  &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;60;140;60;140;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;m1=0..*
+m2=*
+créer&gt;</help_text><element><id>UMLClass</id><coordinates><x>485</x><y>65</y><w>160</w><h>70</h></coordinates><panel_attributes>Intervenants
+-
+id: 
+formateurs
+vacataires</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>875</x><y>85</y><w>140</w><h>390</h></coordinates><panel_attributes>intervenants :
+formateurs, vacataires ;
+
+vacataire :
+ville ;
+
+formateur :
+niveau, type_de_contrat,
+nom, numéro_tel,
+date_embauche ;
+
+cours :
+code, nom, prix, durée ;
+
+stagiaire :
+nom, numéro_tel,
+promotion,
+date_entree_formation,
+date_fin_formation ;
+
+promotion :
+code, libellé ;
+
+diplôme :
+code, intitulé, niveau
+
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>205</y><w>160</w><h>70</h></coordinates><panel_attributes>Vacataire
+-
+id: 
+ville</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>55</y><w>160</w><h>120</h></coordinates><panel_attributes>formateur
+-
+id: 
+niveau
+type de contrat
+nom
+numéro_tel
+date_embauche</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>475</x><y>295</y><w>160</w><h>100</h></coordinates><panel_attributes>cours
+-
+id: 
+code
+nom
+prix
+durée</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>545</y><w>120</w><h>100</h></coordinates><panel_attributes>promotion
+-
+id: 
+code
+libellé</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>245</x><y>415</y><w>160</w><h>120</h></coordinates><panel_attributes>stagiaire
+-
+id: 
+nom
+numéro_tel
+promotion
+date_entree_formation
+date_fin_formation</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>135</y><w>110</w><h>100</h></coordinates><panel_attributes>diplôme
+-
+id: 
+code
+intitulé
+niveau</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>575</x><y>125</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..1
+donnée ou créer</panel_attributes><additional_attributes>10;10;10;110;120;110</additional_attributes></element><element><id>Relation</id><coordinates><x>625</x><y>365</y><w>180</w><h>120</h></coordinates><panel_attributes>m1=0..1
+m2=0..*</panel_attributes><additional_attributes>10;10;140;10;140;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>685</x><y>465</y><w>160</w><h>60</h></coordinates><panel_attributes>stagiaire_session
+--
+id:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>105</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>125</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>140;10;140;120;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>395</x><y>480</y><w>310</w><h>50</h></coordinates><panel_attributes>m1=0..1
+m2=0..*
+participe</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>695</x><y>180</y><w>130</w><h>120</h></coordinates><panel_attributes>cours_session
+--
+id: 
+date
+nom
+heure
+duree
+batiment</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>625</x><y>290</y><w>180</w><h>90</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+contient  &gt;</panel_attributes><additional_attributes>10;60;140;60;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>445</x><y>540</y><w>160</w><h>70</h></coordinates><panel_attributes>promotion_stagiaire
+--
+id :
+date debut :
+date de fin :</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>530</y><w>150</w><h>80</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+contient  &gt;</panel_attributes><additional_attributes>130;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>85</x><y>600</y><w>480</w><h>100</h></coordinates><panel_attributes>lt=-
+m1=0..1
+m2=0..n</panel_attributes><additional_attributes>10;50;10;80;440;80;440;10</additional_attributes></element><element><id>Relation</id><coordinates><x>95</x><y>440</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=-
+m1=0..1
+m2=0..n
+eval &gt;</panel_attributes><additional_attributes>150;50;10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>340</y><w>130</w><h>110</h></coordinates><panel_attributes>diplome_stagiaire
+--
+id :
+date :</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>95</x><y>230</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+contient &gt;</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>

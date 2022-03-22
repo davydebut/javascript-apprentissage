@@ -1,0 +1,75 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notesrefilmte_retour</help_text><element><id>UMLClass</id><coordinates><x>405</x><y>140</y><w>210</w><h>130</h></coordinates><panel_attributes>copie
+--
+id :
+reference : 
+format :
+etat :
+film : (titre)
+nombre_de_copie_retrait:
+stock_disponible:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>35</x><y>140</y><w>140</w><h>120</h></coordinates><panel_attributes>film
+--
+id :
+titre :
+categorie :
+duree :
+realisateur :
+affiche :</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>55</x><y>610</y><w>140</w><h>70</h></coordinates><panel_attributes>client
+--
+id :
+nom :
+membre_club : Bolleen</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>405</x><y>610</y><w>210</w><h>100</h></coordinates><panel_attributes>membre
+--
+id :
+prénom :
+nom :
+numéro_tel :
+adresse :</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>170</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+contient &gt;</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>185</x><y>630</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=0..1
+contient l'état &gt;</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>515</x><y>460</y><w>120</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+verifier le stock &gt;</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>405</x><y>400</y><w>210</w><h>70</h></coordinates><panel_attributes>Stock_disponible
+--
+id: 
+date_du_debut:
+date_de_fin:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>505</x><y>260</y><w>70</w><h>160</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+louee &gt;</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>300</y><w>80</w><h>60</h></coordinates><panel_attributes>categorie
+--
+id:
+libelle</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>125</x><y>250</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+contient &gt;</panel_attributes><additional_attributes>10;10;10;90;130;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>265</x><y>40</y><w>70</w><h>70</h></coordinates><panel_attributes>format
+--
+id:
+libelle:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>325</x><y>70</y><w>220</w><h>90</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+contient &gt;</panel_attributes><additional_attributes>10;20;180;20;180;70</additional_attributes></element><element><id>UMLNote</id><coordinates><x>335</x><y>0</y><w>140</w><h>50</h></coordinates><panel_attributes>Une copie peut avoir
+plusieurs format ;
+DVD, Blue-ray, etc...
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>225</x><y>250</y><w>150</w><h>50</h></coordinates><panel_attributes>Un film peut avoir un ou
+plusieurs catégorie ;
+Horreur, Thriller, Comique...
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>265</x><y>400</y><w>140</w><h>70</h></coordinates><panel_attributes>Une copie peut être loué
+uniquement aux membres
+avec une date d'emprunt
+et une date retour
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>485</y><w>110</w><h>70</h></coordinates><panel_attributes>historique
+--
+id:
+date_commence:
+date_retour:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>255</y><w>160</w><h>250</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+demande de location &gt;</panel_attributes><additional_attributes>10;10;10;230</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>500</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: Class_
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
