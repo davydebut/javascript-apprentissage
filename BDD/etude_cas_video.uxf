@@ -1,0 +1,100 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;1&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;9&lt;/x&gt;&lt;y&gt;49&lt;/y&gt;&lt;w&gt;13&lt;/w&gt;&lt;h&gt;5&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=1
+m2=1..*
+detient &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;1;2;11;2&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>306</x><y>178</y><w>100</w><h>60</h></coordinates><panel_attributes>copies
+--
+id:
+format:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>116</x><y>328</y><w>100</w><h>90</h></coordinates><panel_attributes>film
+--
+id:
+catégorie:
+duree:
+tranche_age:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>6</x><y>478</y><w>80</w><h>100</h></coordinates><panel_attributes>membre
+--
+id:
+prenom:
+nom:
+num_tel:
+adresse:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>196</x><y>198</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+Contient &gt;</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>346</x><y>228</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+contient &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>306</x><y>318</y><w>140</w><h>60</h></coordinates><panel_attributes>disponibilité_copie
+--
+id:
+stock:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>368</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+contient &gt;</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>478</y><w>110</w><h>90</h></coordinates><panel_attributes>historique_location
+--
+id:
+date_debut:
+date_retour:
+etat:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>76</x><y>498</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+detient &gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>116</x><y>178</y><w>90</w><h>60</h></coordinates><panel_attributes>reference
+--
+id:
+titre:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>116</x><y>28</y><w>80</w><h>70</h></coordinates><panel_attributes>jeux_vidéo
+--
+id:
+categorie:
+support:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>6</x><y>118</y><w>90</w><h>160</h></coordinates><panel_attributes>categories
+--
+id:
+Horreur:
+Thriller:
+Comique:
+Dramatique:
+Action:
+Rôle:
+Combat:
+Simulation:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>146</x><y>88</y><w>100</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+appartient &gt;</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>146</x><y>228</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+appartient &gt;</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>268</y><w>100</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+contient &gt;</panel_attributes><additional_attributes>10;10;10;100;80;100</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>48</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+contient &gt;</panel_attributes><additional_attributes>80;20;10;20;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>196</x><y>478</y><w>100</w><h>100</h></coordinates><panel_attributes>abonnements
+--
+id:
+date_depart:
+date_de_fin:
+motif:
+date_resiliation:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>246</x><y>558</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+contient &gt;</panel_attributes><additional_attributes>10;20;10;60;150;60;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>6</x><y>598</y><w>110</w><h>120</h></coordinates><panel_attributes>société
+--
+id:
+raison_social:
+nom_representant:
+siret:
+adresse:
+num_tel:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>106</x><y>540</y><w>110</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+detient &gt;</panel_attributes><additional_attributes>10;110;40;110;40;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>196</x><y>650</y><w>110</w><h>60</h></coordinates><panel_attributes>fournisseur
+--
+id:
+reference_societe:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>106</x><y>660</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+devient &gt;</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>386</x><y>640</y><w>110</w><h>90</h></coordinates><panel_attributes>catalogue
+--
+id:
+note:
+auteur_critique:
+critique:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>660</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+propose &gt;</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element></diagram>

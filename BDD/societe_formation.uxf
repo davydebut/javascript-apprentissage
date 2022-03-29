@@ -1,0 +1,60 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>240</x><y>158</y><w>90</w><h>70</h></coordinates><panel_attributes>Intervenants
+--
+id:
+nom:
+numero_tel:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>158</y><w>110</w><h>90</h></coordinates><panel_attributes>Formateurs
+--
+id:
+niveau_etudes:
+type_contrat:
+date_embauche:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>458</y><w>120</w><h>90</h></coordinates><panel_attributes>Diplôme
+--
+id:
+code:
+intitulé:
+niveau_etudes:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>28</y><w>90</w><h>60</h></coordinates><panel_attributes>Vacataires
+--
+id:
+ville:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>458</y><w>90</w><h>70</h></coordinates><panel_attributes>Stagiaires
+--
+id:
+nom:
+num_tel:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>188</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>265</x><y>78</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>15;80;15;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>35</x><y>508</y><w>100</w><h>70</h></coordinates><panel_attributes>Promotion
+--
+id:
+code:
+libellé:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>235</x><y>618</y><w>90</w><h>90</h></coordinates><panel_attributes>Contrat
+--
+id:
+date_debut:
+date_de_fin:
+libellé:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>465</x><y>298</y><w>120</w><h>90</h></coordinates><panel_attributes>Cours_unique
+--
+id:
+code:
+prix:
+nom:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>488</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+Passe &gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>235</x><y>318</y><w>120</w><h>60</h></coordinates><panel_attributes>session_de_cours
+--
+id:
+duree:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>265</x><y>218</y><w>80</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+Donne &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>345</x><y>338</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+Contient &gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>275</x><y>368</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+Suivie &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>275</x><y>518</y><w>70</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+signe &gt;</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>488</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+appartient &gt;</panel_attributes><additional_attributes>120;20;15;20</additional_attributes></element></diagram>
