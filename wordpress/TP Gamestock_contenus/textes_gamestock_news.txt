@@ -1,0 +1,57 @@
+NEWS
+----
+
+ARTICLE 1
+----
+
+Royaume-Uni : Call of Duty voit ses ventes au lancement baisser de 40% avec Vanguard
+
+On a pris l'habitude de croire que Call of Duty se vendra contre vents et marées, ce qui reste en partie vrai : sorti le 5 novembre dernier, le dernier épisode en date Call of Duty : Vanguard, est déjà la deuxième meilleure vente de l'année outre-Manche, derrière l'insubmersible FIFA 22. Ce succès cache néanmoins une autre réalité : les ventes de lancement du jeu au Royaume-Uni sont en baisse de 40 % par rapport à Black Ops Cold War, selon les dernières données GSD procurées par Gamesindustry.biz.
+
+Dans le détail, on y apprend que les ventes en physique ont chuté de 26 % par rapport au millésime 2020, tandis que les ventes numériques accusent elle une baisse de 44 % sur cette première semaine d'exploitation. Activision Blizzard aura évidemment tout le loisir de se rattraper sur la période des fêtes, quand bien même on sait que le weekend de lancement concentre une bonne partie des ventes.
+
+Néanmoins, plus qu'une certaine lassitude liée à la franchise, ou aux potentiels effets liés à la pandémie, on rappelle que, historiquement, les épisodes dans le contexte de la Seconde Guerre mondiale pèsent moins dans la balance commerciale de l'éditeur que les volets guerre moderne. Le fait que les joueurs de FPS gardent Battlefield 2042 et Halo Infinite dans leur viseur pourrait également tenir lieu d'explication, mais c'est sans doute la popularité monumentale du battle royale Call of Duty : Warzone, free to play et jeu service, qui pourrait bien cannibaliser cet épisode.
+
+Autre nouveauté du classement combiné numérique + physique, Just Dance 2022 démarre en 14ème position pour la précédente semaine, des ventes là encore en baisse de 35 % par rapport au titre de l'année dernière.
+
+étiquettes : FPS, action, ventes
+
+
+ARTICLE 2
+----
+
+En une semaine, Let's Build a Zoo est déjà un joli succès
+
+Dans le grand bain des jeux de gestion de zoo, Let's Build a Zoo semble parvenir à tirer son épingle du jeu. A l'opposé total visuellement de Planet Zoo, ce jeu indépendant développé par Springloaded a pourtant trouvé son public en s'écoulant à plus de 30 000 exemplaires.
+
+[IMAGE 1]
+
+Sorti le 5 novembre, Let's Build a Zoo est déja rentré dans ses frais, comme le confirme Mike Rose, fondateur de No More Robots qui édite ce jeu de gestion de parc zoologique décalé. Le concept est ici de construire un zoo et de s'occuper de ses animaux et de ses employés, mais en faisant des choix plus ou moins moraux. Il est en effet possible de prendre des décisions "maléfiques" en volant des toutous pour les grimer en lion ou en accordant aucune sorte d'importance au nombre d'individus dans les enclos. Une autre mécanique permet aux joueurs de croiser des espèces pour créer des lapins-zèbres ou des ours-tigres.
+
+[IMAGE 2]
+
+Quelques originalités qui ont permis au studio singapourien de sécuriser l'avenir du jeu. Dans les données partagées par Mike Rose, on apprend notamment que des soucis de paiement sur Steam ont empêché de nombreux joueurs à accéder au jeu, et que les équipes n'avait pas accès aux chiffres de vente la première journée. Un coup de stress qui s'est bien résolu, Let's Build a Zoo faisant un pic à plus de 1600 joueurs simultanés, et sans retomber sous les 700 depuis. Des résultats qui explosent les attentes pour ce titre, pour le moment uniquement disponible sur PC via Steam et l'Epic Games Store, mais que l'on attend également sur consoles l'année prochaine.
+
+étiquettes : gestion, pc, animaux
+
+
+ARTICLE 3
+----
+
+Genshin Impact : retour aux Monts Dosdragon pour la mise à jour 2.3
+
+Histoire de réaliser une mise à jour collant avec la saison, la 2.3 de Genshin Impact remet en avant la région glaciale des Monts Dosdragon. Ce sera le 24 novembre sur toutes les plateformes concernées.
+
+Des personnages comme Albedo et Eula feront leur retour dans la première partie de l'histoire de cette mise à jour ainsi que dans les vœux événements, mais comme d'habitude ce sont les nouveaux personnages qui monopoliseront l'attention. Une fois n'est pas coutume, c'est un duo masculin qui se présente à nous. Arataki Itto (5★) et Gorou (4★) appartiennent tous les deux à l'élément Géo, mais l'un manie une épée à deux mains alors que l'autre utilise un arc.
+
+[IMAGE 1]
+
+L'événement principal de la mise à jour s'intitule "Ombres au cœur du blizzard" et mettra les aventuriers au défi dans les températures extrêmes des Monts Dosdragon. Il faudra passer par une série d'entraînements de vitesse, de pistage et de combat pour obtenir des récompenses comme la nouvelle épée "Fuseau de cinabre" 4★.
+
+Du côté d'Inazuma, un autre événement sollicitera notre aide dans une affaire de disparition de masse de petits animaux. Les joueurs devront enquêter sur un mystérieux chien guerrier, sauver les animaux disparus et pourront obtenir un tout nouveau gadget qui leur permettra de reproduire certaines créatures pour les placer ensuite dans leur Sérénithéière, habitat dans lequel on pourra désormais inviter Paimon, si besoin d'un casse-croûte.
+
+Pour les amateurs de gros combats, un nouveau boss fera son apparition sur Tsurumi : le Loup alpha doré. Le PlayStation Blog vous propose comme d'habitude plus de détails sur cette mise à jour de novembre, qui sera a priori la dernière de cette année 2021.
+
+[VIDEO - https://www.youtube.com/watch?v=e1_Lj8iZvnk ]
+
+étiquettes : MAJ, action, RPG

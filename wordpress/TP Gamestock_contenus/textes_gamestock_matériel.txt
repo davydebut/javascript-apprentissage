@@ -1,0 +1,86 @@
+MATÉRIEL
+-----
+
+ARTICLE 1
+-----
+
+NVIDIA fait évoluer son offre GeForce Now, et l'arme en RTX 3080
+
+Le service GeForce Now sera-t-il à court ou moyen terme le seul moyen de profiter des bienfaits d’une RTX 3080 à un prix raisonnable ? Ce n’est pas impossible, puisque NVIDIA a décidé d’intégrer ses cartes de nouvelle génération au sein de son infrastructure de cloud gaming. Une évolution parmi d’autres, qui va permettre à une nouvelle offre d’émerger. Son nom : GeForce Now RTX 3080.
+
+Pendant longtemps, le cloud gaming est resté cette bête curieuse que l’on observait du coin de l’œil en se donnant rendez-vous dans quelques années. Eh bien voilà, on y est… En 2021, la bête a su se transformer en une belle créature, que les grands noms du jeux vidéo et d’ailleurs ne cessent de s’approprier, en multipliant annonces et offres : Microsoft Cloud Gaming (via Game Pass), Amazon Luna, GeForce Now, Google Stadia ou PlayStation Now sont maintenant bien ancrés dans le paysage, et si tous les services ne se valent pas, certains ont su tirer leurs épingles du jeu : on pense notamment à GeForce Now de NVIDIA, l'un des premiers à être monté au créneau en 2013… et à avoir essuyé quelques plâtres.
+
+Resté plusieurs années en version bêta sous la dénomination NVIDIA GRID, le service a d’abord été freiné par son faible catalogue de titres et son manque de support matériel, avant d’adopter une stratégie plus ouverte incluant plus de plateformes (Android, PC, environnement Apple) et permettant d’importer dans son univers Cloud son propre catalogue existant de jeux Steam ou GoG. Un mouvement bien accueilli, mais très vite tempéré par un nouveau coup de frein : ce mode de diffusion ne satisfaisait pas certains éditeurs, qui ont demandé le retrait de leurs œuvres (Warner, 2K, Bethesda, ou Activision-Blizzard, entre autres).
+
+Qu’à cela ne tienne : NVIDIA a travaillé au retour de certains catalogues (Square Enix, Remedy, ou EA) et a commencé à miser sur des free to play porteurs comme Fortnite, League of Legends ou Rocket League, pour ne citer qu’eux. Tout cela pour arriver en 2021 avec 12 millions de souscriptions au compteurs (attention, tous ne payent pas, puisque GFN dispose d’une offre gratuite), un réservoir d’environ 1500 titres (d’après nos observations), et un service plutôt solide sur ses bases, comme le soulignait le dernier test de nos confrères des Numériques. Fort de ces éléments, NVIDIA entend passer à la vitesse supérieure d’ici à la fin d’année.
+
+[IMAGE 1]
+
+Comment ? D’abord en investissant dans son infrastructure réseau. Le nerf de la guerre du cloud, si l’on entend maintenir une bonne qualité de service. L’Europe va par exemple récupérer 6 plateformes de diffusion supplémentaires tandis que d’autres ouvriront en Australie, en Amérique du Sud ou en Asie du Sud Est. Mais l’avancée la plus significative sera sans doute la montée en gamme d’une partie du parc existant : ce dernier va bénéficier d’une nouvelle génération de serveurs baptisés SuperPOD, pour permettre le déploiement d’une nouvelle offre commerciale : GeForce Now RTX 3080.
+
+Concrètement, cette montée en gamme va passer par l’introduction de nouveaux moteurs graphiques, des RTX 3080. Des cartes dont le but n’est pas d’apporter spécifiquement les supports RTX et DLSS, qui sont déjà inclus dans l’offre Priority actuelle, mais d’augmenter la puissance de calcul brute, afin de proposer une nouvelle expérience : une définition 1440p et un frame rate maximum de 120 FPS (notez que le 1080p / 120 FPS a été brièvement disponible lorsque le service était en bêta). En prime, l’offre GFN RTX 3080 va introduire le support de l’adaptative Sync, pour ceux qui disposeront d’un écran compatible, et pour le coup, c’est une nouveauté appréciable, tant le gain de confort permis par cette technologie est grand. Enfin, NVIDIA promet des bénéfices notables en termes de latence (voir notre encadré).
+
+[IMAGE 2]
+
+Mais dites-moi, mon bon Kracou ? Dans ce monde capitaliste qui est le nôtre, qui dit nouvelle offre commerciale incluant de nouvelles fonctionnalités dit forcément une grille tarifaire qui monte ? Eh bien non ! La plage de tarif demeure la même et plafonne à 99,99€ / 6 mois. Simplement, l’offre Priority devient intermédiaire, à 49,99€ / 6 mois pour des caractéristiques inchangées (RTX ON, 6 heures consécutives de jeu autorisées, 1080p x 60 FPS), et l’offre « RTX 3080 » devient la nouvelle référence en matière de performances, avec des machines virtuelles équipées en RTX 3080, une expérience 1440p / 120 FPS (attention d’avoir un écran compatible), et une session maximale autorisée qui passe à 8 heures consécutives. Petit bonus pour les possesseurs de Shield TV : ils pourront profiter d’une expérience 4K HDR.
+
+GeForce Now RTX 3080 : ce n’est pas qu’une question de GPU
+
+Sur un service comme GeForce Now SuperPOD, principalement destiné aux joueurs, on a vite faite de se focaliser sur la puissance déployée pour chaque utilisateur. Dans le cas présent, on parle de systèmes de stockage type SSD sur PCIe Gen4, de CPU 8 cœurs / 16 threads, et bien sûr de RTX 3080. Il ne faut pas oublier cependant qu’une très grande partie de la qualité de service repose sur une gestion optimale des flux réseaux. Dans ce cadre, le récent rachat par NVIDIA de la société Mellanox a sans aucun doute joué un rôle-clé dans la nouvelle architecture SuperPOD. Une architecture que la marque a d’ailleurs pu étrenner sur le marché professionnel, depuis quelques mois déjà, et sous le nom DGX SuperPOD.
+
+Maintenant qu’on vous a bien fait envie, on va faire retomber la température de quelques degrés. Si la nouvelle offre premium est précommandable dès aujourd’hui (21/10 donc), son accès concret vous fera patienter jusqu’à début décembre, sans plus de précisions. Quoi qu’il en soit, cette dernière évolution de GeForce Now montre bien que NVIDIA n’a pas l’intention de jouer les seconds couteaux sur ce marché, et il faudra au moins ça pour faire face à l’autre offre qui attise l’intérêt : le projet xCloud de Microsoft.
+
+
+étiquettes : GPU, carte graphique, pc, hardware
+
+----
+
+ARTICLE 2
+----
+
+Notre test du Game & Watch Zelda : un nouveau lien vers le passé
+
+"Hmm, c'est vrai que tu as une bonne tête de client", se lamentait ce PNJ de Breath of the Wild en voyant Link les poches pleines de rubis. Et pourtant, malgré la popularité au zénith de la série, et après une année 2020 à célébrer Super Mario tous les mois ou presque, Nintendo s'est montré plutôt raisonnable dans l'exploitation de son autre licence phare. Un remaster tranquilou avec Skyward Sword HD d'un côté, et un nouveau modèle de Game & Watch pour ce 12 novembre de l'autre, c'est ainsi que l'on fêtera les 35 ans de la légende. Avec tout de même quelques améliorations depuis le modèle Mario de l'an dernier pour mieux faire passer la pilule.
+
+Vu la vitesse à laquelle votre Game & Watch Mario a pris la poussière, ou fini rangé dans sa boite, vous vous étiez jurés qu'on ne vous y reprendrait plus. Tout juste un an plus tard, Nintendo sort pourtant de son fourreau plastifié un nouveau carton doré, évoquant aussi bien les codes esthétiques des jeux électroniques de votre enfance (la nôtre, du moins), que ceux des premiers jeux Zelda. A 49,99 € prix conseillé, on comprend en effet le délai de réflexion, surtout après un modèle Mario assez éloigné des standards, même pour un gadget vintage qu'on s'offre sous le sapin. Bonne nouvelle, le fabricant a réglé quelques-uns des soucis initiaux, à commencer par la fonctionnalité horloge elle-même (insérer ici le jingle de Zelda).
+
+Avec le temps...
+
+Souvenez-vous, la Watch du Game & Watch Mario demandait de laisser l'objet constamment relié en USB-C pour ne pas se mettre en veille au bout de 3 minutes. Cette limite arbitraire existe encore sur le modèle Zelda, mais un détour par les options permet de la passer sur "Off", pour en faire une petite horloge d'appoint. En revanche, toujours aucune fonction d'alarme pour suppléer votre réveil ou votre portable - mais de toute façon, quasiment personne n'en avait l'utilité à l'époque, ce n'est pas aujourd'hui que les choses vont changer. Enfin, à défaut de béquille métallique comme sur les jeux d'origine, ce Game & Watch Zelda est livré dans un étui cartonné noir serti d'une Triforce qui peut faire office de présentoir, après un rapide dépliage des ailettes. Ce n'est pas des plus élégants, ni des plus résistants, mais c'est toujours mieux que le néant du modèle Mario. A noter d'ailleurs la présence d'une petite encoche sur le côté droit pour la recharge en USB-C, quand l'autonomie viendra à défaillir après une petite huitaine d'heures de jeu. Seul inconvénient, le petit voyant Triforce qui s'illumine à l'arrière de la coque est masqué quand on exhibe fièrement l'engin dans son écrin de fortune.
+
+[IMAGE 1]
+
+Pour être totalement complet sur le sujet horloge, précisons que la fonction veille s'amuse à faire évoluer Link sur une partie de 12h. Celle-ci s'inspire du premier Zelda, avec une progression rythmée par des séquences en extérieur et d'autres dans les donjons, le tout cerclé de petits points pour égrener les secondes jusqu'à la libération de la princesse, à midi ou à minuit, comme dans Cendrillon. On conseille d'ailleurs de réduire le son au minimum des dix crans pour ne plus subir le "bip bip" du temps qui passe, le genre de tic-tac stressant qu'on pensait réservé à la pendule du salon familial. Alternativement, une pression de 5 secondes sur le bouton A permet de switcher sur la musique et les bruitages de l'action à l'écran. Et comme un goodies de ce type ne serait rien sans ses fonctionnalités cachées, certains secrets apparaissent à des heures bien précises, comme une invasion de fées à 2:22, ou bien encore le son typique des secrets de Zelda pour sonner chaque nouvelle heure. Ah oui, il n'est visiblement pas possible de passer l'affichage AM/PM au format classique.
+
+Et maintenant, on joue
+
+L'autre bonne nouvelle, c'est que ce Game & Watch Zelda est un peu moins radin en matière de jeux et de fonctionnalités que ne l'était le modèle Mario de l'an dernier. Bien sûr, il faut accepter le principe de rejouer à The Legend of Zelda, Zelda II The Adventure of Link et Link's Awakening alors qu'ils ont déjà été recyclés à peu près partout ; ils sont même disponibles dans l'abonnement Nintendo Switch Online pour les deux premiers, avec un écran qui offre davantage de lisibilité à l'action. Celui de ce Game & Watch respecte les dimensions de l'époque au millimètre près (67mm x 112mm x 12.5mm), avec un écran LCD 2,36" qui offre dix niveaux de luminosité. Et s'il se révèle agréable et contrasté dans le cas de Link's Awakening, un jeu Game Boy conçu à la base pour un écran à peine plus large, il faudra forcément plisser les yeux pour les deux épisodes NES, pensés eux pour les tubes cathodiques d'autrefois.
+
+Nintendo a néanmoins réservé quelques surprises aux férus de Zelda en intégrant les versions japonaises des jeux NES, et même la ROM française de l'épisode Game Boy, ce qui permet de retrouver la traduction d'époque de Véronique Chantel, "voyou" compris. Cela permet aussi, et surtout, de redécouvrir les différences régionales d'un épisode à l'autre, particulièrement nombreuses dans le portage NES de Zelda II, sorti comme son prédécesseur sur Disk System au Japon. Entre le système de montée en niveau géré différemment, les changements graphiques sur les NPC, les donjons et les boss, sans oublier la musique des combats aléatoires qui n'a plus rien à voir, ce sera l'occasion de jauger les deux versions comme un vrai puriste. Et de retomber sur la difficulté de l'époque sans la moindre option rewind ou sauvegarde rapide pour vous sauver la mise. En revanche, il suffit de pousser A, B, Select et Start en simultané pour accéder aux écrans de sauvegarde.
+
+[IMAGE 2 - Hmm, c'est vrai que tu as une bonne tête de client.]
+
+Ses atouts
+
+Le format Game & Watch mignon et portable comme tout.
+Trois Zelda, c'est toujours mieux qu'un seul.
+Surtout Link's Awakening, parfaitement à son aise sur le format (et en VF).
+On peut enfin s'en servir d'horloge d'appoint.
+Le passage rapide d'un jeu à l'autre.
+Les versions originales pour jauger les différences.
+Le présentoir est inclus, à défaut de béquille.
+
+Nos réserves
+
+Bon ben ça reste un présentoir en carton.
+Aucun autre jeu Game & Watch que Vermin.
+Les Zelda NES paraissent quand même bien petits.
+Le mode Survie somme toute bien gadget.
+
+[VIDEO - https://www.youtube.com/watch?v=v3vldJULefI ]
+
+Notre avis
+
+Nintendo a profité de l'année écoulée pour corriger les défauts de conception du modèle Mario, et malgré le tarif affiché, on se sent nettement moins floués avec ce Game & Watch Zelda. Déjà parce que les trois jeux disponibles raviront les fans de retrogaming, avec une mention spéciale pour Link's Awakening, conçu à la base pour une machine portable. Mais aussi parce que les petits ajouts témoignent d'un respect du client. Qu'on ne se méprenne pas, il s'agit encore et toujours d'un gadget pensé pour surfer sur la nostalgie des joueurs de cette époque, et remplir toutes les rubriques "nostalgeek ;-)'" des catalogues de Noël, saison 2021. Mais en supposant que vous craquiez, sa durée de vie pourrait se prolonger au-delà des repas de famille et de la dinde aux marrons.
+
+étiquettes : console, retro
