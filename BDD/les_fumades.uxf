@@ -1,8 +1,8 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram note</help_text><element><id>UMLClass</id><coordinates><x>610</x><y>228</y><w>140</w><h>70</h></coordinates><panel_attributes>reservations
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram note</help_text><element><id>UMLClass</id><coordinates><x>580</x><y>228</y><w>140</w><h>70</h></coordinates><panel_attributes>reservations
 --
 id:
 date:
-choix_modifications:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>198</y><w>170</w><h>150</h></coordinates><panel_attributes>locations clients
+choix_modifications:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>198</y><w>170</w><h>150</h></coordinates><panel_attributes>locations clients
 --
 id:
 nom:
@@ -11,86 +11,86 @@ e-mail:
 tel:
 nbre_personnes: (max8)
 choix emplacement:
-choix de la pension:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>388</y><w>150</w><h>60</h></coordinates><panel_attributes>en attente de confirmation
+choix de la pension:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>388</y><w>150</w><h>60</h></coordinates><panel_attributes>en attente de confirmation
 --
 id:
-lettre: A</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>458</y><w>160</w><h>70</h></coordinates><panel_attributes>confirmation de la location
+lettre: A</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>458</y><w>160</w><h>70</h></coordinates><panel_attributes>confirmation de la location
 --
 id:
 lettre: C
-mode de paiement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>378</y><w>130</w><h>90</h></coordinates><panel_attributes>non confirmation
+mode de paiement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>378</y><w>130</w><h>90</h></coordinates><panel_attributes>non confirmation
 --
 id:
 delai: 20
 lettre: L
-envoie d'annulation:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>508</y><w>160</w><h>60</h></coordinates><panel_attributes>desistements
+envoie d'annulation:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>508</y><w>160</w><h>60</h></coordinates><panel_attributes>desistements
 --
 id:
-annulation locations client:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>278</y><w>180</w><h>70</h></coordinates><panel_attributes>restauration
+annulation locations client:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>278</y><w>180</w><h>70</h></coordinates><panel_attributes>restauration
 --
 id:
 choix de la pension:
-nbre_personnes_reservations:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>608</y><w>160</w><h>70</h></coordinates><panel_attributes>inventaire
+nbre_personnes_reservations:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>608</y><w>160</w><h>70</h></coordinates><panel_attributes>inventaire
 --
 id:
 matériel:
-référence_herbergement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>28</y><w>210</w><h>90</h></coordinates><panel_attributes>appartements
+référence_herbergement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>28</y><w>210</w><h>90</h></coordinates><panel_attributes>appartements
 --
 id:
 choix_appartements:
 appartement_6_personnes: 8
-appartement_3_personnes: 4</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>28</y><w>150</w><h>70</h></coordinates><panel_attributes>bungalows
+appartement_3_personnes: 4</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>28</y><w>150</w><h>70</h></coordinates><panel_attributes>bungalows
 --
 id:
 bungalow_8_places: 10
-bungalow_6_places: 10</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>28</y><w>160</w><h>90</h></coordinates><panel_attributes>caravanes
+bungalow_6_places: 10</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>28</y><w>160</w><h>90</h></coordinates><panel_attributes>caravanes
 --
 id:
 caravanes_6_places: 50
 caravanes_4_places: 30
-caravanes_2_places: 10</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>608</y><w>130</w><h>70</h></coordinates><panel_attributes>arrivées
+caravanes_2_places: 10</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>608</y><w>130</w><h>70</h></coordinates><panel_attributes>arrivées
 --
 id:
 client:
 lettre: P
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>608</y><w>130</w><h>70</h></coordinates><panel_attributes>départ
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>608</y><w>130</w><h>70</h></coordinates><panel_attributes>départ
 --
 id:
 client:
-inventaires_etat:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>178</y><w>220</w><h>70</h></coordinates><panel_attributes>lt=-
-m1=0..1
-m2=0..1
-remplie &gt;</panel_attributes><additional_attributes>10;20;180;20;180;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>188</y><w>160</w><h>60</h></coordinates><panel_attributes>hébergements
+inventaires_etat:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>178</y><w>210</w><h>70</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+remplie &gt;</panel_attributes><additional_attributes>10;20;180;20;180;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>188</y><w>160</w><h>60</h></coordinates><panel_attributes>hébergements
 --
 id:
-choix_hébergement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>108</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>88</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>108</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>208</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
+choix_hébergement:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>108</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>88</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>108</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>208</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-commande &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>288</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
+commande &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>288</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-choisis &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>288</y><w>170</w><h>70</h></coordinates><panel_attributes>lt=-
+choisis &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>288</y><w>170</w><h>70</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
-remplie &gt;</panel_attributes><additional_attributes>10;40;130;40;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>288</y><w>350</w><h>140</h></coordinates><panel_attributes>lt=-
+remplie &gt;</panel_attributes><additional_attributes>10;40;130;40;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>288</y><w>350</w><h>140</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
-change son status &gt;</panel_attributes><additional_attributes>220;10;220;110;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>408</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=-
+change son status &gt;</panel_attributes><additional_attributes>220;10;220;110;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>408</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
-&lt; mets a jour</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>410</y><w>250</w><h>70</h></coordinates><panel_attributes>lt=-
+&lt; mets a jour</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>410</y><w>250</w><h>70</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
-valide &gt;</panel_attributes><additional_attributes>10;20;210;20;210;50</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>520</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=-
+valide &gt;</panel_attributes><additional_attributes>10;20;210;20;210;50</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>520</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..n
-reçois &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>630</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
+reçois &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>630</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..n
-&lt; faire</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>460</y><w>110</w><h>110</h></coordinates><panel_attributes>lt=-
+&lt; faire</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>460</y><w>110</w><h>110</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
-supprime &gt;</panel_attributes><additional_attributes>10;10;10;80;90;80</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>620</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
+supprime &gt;</panel_attributes><additional_attributes>10;10;10;80;90;80</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>620</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
 faire &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element></diagram>
