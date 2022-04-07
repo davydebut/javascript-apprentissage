@@ -47,7 +47,7 @@ Vu la vitesse à laquelle votre Game & Watch Mario a pris la poussière, ou fini
 Avec le temps...
 
 Souvenez-vous, la Watch du Game & Watch Mario demandait de laisser l'objet constamment relié en USB-C pour ne pas se mettre en veille au bout de 3 minutes. Cette limite arbitraire existe encore sur le modèle Zelda, mais un détour par les options permet de la passer sur "Off", pour en faire une petite horloge d'appoint. En revanche, toujours aucune fonction d'alarme pour suppléer votre réveil ou votre portable - mais de toute façon, quasiment personne n'en avait l'utilité à l'époque, ce n'est pas aujourd'hui que les choses vont changer. Enfin, à défaut de béquille métallique comme sur les jeux d'origine, ce Game & Watch Zelda est livré dans un étui cartonné noir serti d'une Triforce qui peut faire office de présentoir, après un rapide dépliage des ailettes. Ce n'est pas des plus élégants, ni des plus résistants, mais c'est toujours mieux que le néant du modèle Mario. A noter d'ailleurs la présence d'une petite encoche sur le côté droit pour la recharge en USB-C, quand l'autonomie viendra à défaillir après une petite huitaine d'heures de jeu. Seul inconvénient, le petit voyant Triforce qui s'illumine à l'arrière de la coque est masqué quand on exhibe fièrement l'engin dans son écrin de fortune.
-
+#5E5E5E
 [IMAGE 1]
 
 Pour être totalement complet sur le sujet horloge, précisons que la fonction veille s'amuse à faire évoluer Link sur une partie de 12h. Celle-ci s'inspire du premier Zelda, avec une progression rythmée par des séquences en extérieur et d'autres dans les donjons, le tout cerclé de petits points pour égrener les secondes jusqu'à la libération de la princesse, à midi ou à minuit, comme dans Cendrillon. On conseille d'ailleurs de réduire le son au minimum des dix crans pour ne plus subir le "bip bip" du temps qui passe, le genre de tic-tac stressant qu'on pensait réservé à la pendule du salon familial. Alternativement, une pression de 5 secondes sur le bouton A permet de switcher sur la musique et les bruitages de l'action à l'écran. Et comme un goodies de ce type ne serait rien sans ses fonctionnalités cachées, certains secrets apparaissent à des heures bien précises, comme une invasion de fées à 2:22, ou bien encore le son typique des secrets de Zelda pour sonner chaque nouvelle heure. Ah oui, il n'est visiblement pas possible de passer l'affichage AM/PM au format classique.
@@ -59,6 +59,8 @@ L'autre bonne nouvelle, c'est que ce Game & Watch Zelda est un peu moins radin e
 Nintendo a néanmoins réservé quelques surprises aux férus de Zelda en intégrant les versions japonaises des jeux NES, et même la ROM française de l'épisode Game Boy, ce qui permet de retrouver la traduction d'époque de Véronique Chantel, "voyou" compris. Cela permet aussi, et surtout, de redécouvrir les différences régionales d'un épisode à l'autre, particulièrement nombreuses dans le portage NES de Zelda II, sorti comme son prédécesseur sur Disk System au Japon. Entre le système de montée en niveau géré différemment, les changements graphiques sur les NPC, les donjons et les boss, sans oublier la musique des combats aléatoires qui n'a plus rien à voir, ce sera l'occasion de jauger les deux versions comme un vrai puriste. Et de retomber sur la difficulté de l'époque sans la moindre option rewind ou sauvegarde rapide pour vous sauver la mise. En revanche, il suffit de pousser A, B, Select et Start en simultané pour accéder aux écrans de sauvegarde.
 
 [IMAGE 2 - Hmm, c'est vrai que tu as une bonne tête de client.]
+
+Notre avis
 
 Ses atouts
 
@@ -78,8 +80,6 @@ Les Zelda NES paraissent quand même bien petits.
 Le mode Survie somme toute bien gadget.
 
 [VIDEO - https://www.youtube.com/watch?v=v3vldJULefI ]
-
-Notre avis
 
 Nintendo a profité de l'année écoulée pour corriger les défauts de conception du modèle Mario, et malgré le tarif affiché, on se sent nettement moins floués avec ce Game & Watch Zelda. Déjà parce que les trois jeux disponibles raviront les fans de retrogaming, avec une mention spéciale pour Link's Awakening, conçu à la base pour une machine portable. Mais aussi parce que les petits ajouts témoignent d'un respect du client. Qu'on ne se méprenne pas, il s'agit encore et toujours d'un gadget pensé pour surfer sur la nostalgie des joueurs de cette époque, et remplir toutes les rubriques "nostalgeek ;-)'" des catalogues de Noël, saison 2021. Mais en supposant que vous craquiez, sa durée de vie pourrait se prolonger au-delà des repas de famille et de la dinde aux marrons.
 
