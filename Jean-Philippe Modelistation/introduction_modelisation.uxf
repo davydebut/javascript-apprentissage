@@ -1,0 +1,134 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLPackage&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;60&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;w&gt;410&lt;/w&gt;&lt;h&gt;280&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;1 - Collection de disques
+--
+
+bg=yellow
+fg=white&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLPackage</id><coordinates><x>91</x><y>0</y><w>410</w><h>280</h></coordinates><panel_attributes>1 - Collection de disques
+--
+
+bg=yellow
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>101</x><y>30</y><w>110</w><h>120</h></coordinates><panel_attributes>disques vinyl
+--
++id_Vinyl:
++titre
++artiste
++label
++durée
++année</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>195</y><w>140</w><h>70</h></coordinates><panel_attributes>Origine Géographique
+--
++id_origine:
++ville:
++pays:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>201</x><y>85</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1..1</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>45</y><w>110</w><h>70</h></coordinates><panel_attributes>Label
+--
++id_label:
++id_disque:
++nom_label:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>391</x><y>105</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>131</x><y>335</y><w>320</w><h>130</h></coordinates><panel_attributes>2 - Cinéma 
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>141</x><y>370</y><w>110</w><h>80</h></coordinates><panel_attributes>Film à l'affiche
+--
++nom_film:
++durée_film:
++réalisateur_film:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>370</y><w>90</w><h>60</h></coordinates><panel_attributes>Press
+--
++id_press:
++note_press:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>241</x><y>400</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..n</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>121</x><y>620</y><w>350</w><h>250</h></coordinates><panel_attributes>3 - Véhicules d'occasion
+--
+bg=red
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>131</x><y>650</y><w>130</w><h>100</h></coordinates><panel_attributes>vehicule
+--
++id_vehicule:
++marque_vehicule:
++anciennete_vehicule:
++type_vehicule:
++nationalite_vehicule:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>650</y><w>110</w><h>70</h></coordinates><panel_attributes>localisation
+--
++id_localisation:
++ville:
++pays:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>531</x><y>20</y><w>270</w><h>260</h></coordinates><panel_attributes>1 - Collection de disques (corrigés)
+--
+
+bg=yellow
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>551</x><y>50</y><w>140</w><h>70</h></coordinates><panel_attributes>Groupes
+--
+nom:
+nationalité:
+date_formation_groupe:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>551</x><y>200</y><w>70</w><h>70</h></coordinates><panel_attributes>Disques
+--
+titre:
+année:
+durée:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>200</y><w>70</w><h>60</h></coordinates><panel_attributes>Labels
+--
+nom:
+ville:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>571</x><y>110</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=0..n</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>611</x><y>230</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=0..1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>487</x><y>341</y><w>290</w><h>280</h></coordinates><panel_attributes>2 - Cinéma (corrigé)
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>501</x><y>370</y><w>110</w><h>60</h></coordinates><panel_attributes>Salles
+--
+id_salle:
+numero_de_salle:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>501</x><y>510</y><w>100</w><h>100</h></coordinates><panel_attributes>Films
+--
+id_film:
+titre:
+nom_acteur:
+annee_de_sortie:
+note:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>691</x><y>430</y><w>70</w><h>100</h></coordinates><panel_attributes>Critiques
+--
+id_critique:
+positif:
+negatif:
+passable:
+a_eviter:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>531</x><y>420</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+En salle &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>591</x><y>520</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+on en pense quoi &gt;</panel_attributes><additional_attributes>10;60;150;60;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>331</x><y>710</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1..1
+se trouve &gt;</panel_attributes><additional_attributes>60;10;60;130;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>790</y><w>120</w><h>70</h></coordinates><panel_attributes>Marque de véhicules
+--
++id_marque:
++nom:
++origine:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>155</x><y>740</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1..1
+dépend &gt;</panel_attributes><additional_attributes>10;10;10;90;70;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>125</x><y>960</y><w>440</w><h>300</h></coordinates><panel_attributes>4 - Commerciaux en déplacement
+--
+bg=blue
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>135</x><y>990</y><w>130</w><h>60</h></coordinates><panel_attributes>vehicule_de_fonction
+--
++id_vehicule:
++immatriculation:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>275</x><y>1060</y><w>120</w><h>70</h></coordinates><panel_attributes>emprunt
+--
++id_emprunt:
++date_emprunt:
++heure_de_depart:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>425</x><y>1140</y><w>120</w><h>70</h></coordinates><panel_attributes>retour
+--
++id_retour:
++heure_d_arrivee:
++kilometre_parcouru:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>135</x><y>1150</y><w>110</w><h>100</h></coordinates><panel_attributes>commerciaux
+--
++id_commercial:
++nom:
++prenom:
++tel:
++e-mail:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>515</x><y>830</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..n
+utilise &gt;</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>255</x><y>1010</y><w>120</w><h>70</h></coordinates><panel_attributes>lt=-
+m1=1..
+m2=n..
+peut etre &gt;</panel_attributes><additional_attributes>10;20;90;20;90;50</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>1120</y><w>160</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=0..n
+enregistre &gt;</panel_attributes><additional_attributes>10;80;120;80;120;10</additional_attributes></element></diagram>
